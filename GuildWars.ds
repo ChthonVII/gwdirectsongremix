@@ -1,0 +1,354 @@
+# DO NOT EDIT!  This file will be clobbered the next time you download a Guild Wars expansion Pak or soundtrack from DirectSong.com.
+# (Okay, if you do want to edit it, then just be aware that it could be clobbered.  So backup your changes, as well as the original.
+#  Also!  Making changes to this file is not supported in any way by DirectSong or ArenaNet.  The only advice you would get support-wise
+#  would be to redownload a version known to work.  So there.)
+## ---
+# A '*' indicates that the music that shipped with the game should play.
+# The [number] is the volume in Microsoft format millibells.  Basically, a larger number is quieter, while zero is full volume.
+# The tokens before the ":" are internal to the game/music system and will not be documented.  You might be able to figure them out though.
+# L<number>: is a level number.  These are internal numbers, and are not documented except for the ones currently in use.
+# Tokens/levels should be arranged in order of priority.  The order in this file is preserved internally - so specific level music
+# should go first and default ambient music goes last, with region and outpost tokens in the middle.
+## ---
+# A blank line will terminate reading of this file.  Use a comment marker for spacing.  Or this cool thing:  ## ---
+# Or make nifty patterns like this:
+#
+##
+###
+####
+#####
+####
+###
+##
+#
+# Level specific mods
+#
+# Divinity Coast
+L16:Guild Wars Special Edition Soundtrack/07a_Divinity_Coast(Bonus_v3).wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
+# Lion's Arch
+L55:Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[1200],Guild Wars Special Edition Soundtrack/23_Ascension_Song.mp3[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
+# Wizard's Folly
+L161:Guild Wars Special Edition Soundtrack/04_Over_the_Shiverpeaks.mp3[1200],Guild Wars Special Edition Soundtrack/06_Prince_Rurik's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/07_Sands_of_Kryta.mp3[1200]
+# Green Hills Country
+L160:Guild Wars Special Edition Soundtrack/02_Autumn_in_Ascalon.mp3[1400],Guild Wars Special Edition Soundtrack/29_First_Light(Bonus).wma[1200]
+# The Barradin Estate
+L163:Guild Wars Special Edition Soundtrack/29_First_Light(Bonus).wma[1200]
+# Ashford Abbey
+L164:Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1200],Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200]
+# Shenzun Tunnels
+L197:Guild Wars Factions Collector's Edition/07_The_Undercity.wma[700],Guild Wars Factions Collector's Edition/09_Plagued_Land.wma[700]
+# Sunjiang District
+L220:Guild Wars Factions Collector's Edition/07_The_Undercity.wma[700]
+# Raisu Palace
+L225:Guild Wars Factions Collector's Edition/03_A_Land_Divided.wma[700]
+# Imperial Sanctum
+L226:Guild Wars Factions Collector's Edition/02_Emperor_Kisu's_Theme.wma[700],Guild Wars Factions Collector's Edition/03_A_Land_Divided.wma[600]
+# Shadow's Passage
+L232:Guild Wars Factions Collector's Edition/07_The_Undercity.wma[600],Guild Wars Factions Collector's Edition/09_Plagued_Land.wma[700]
+# The Undercity
+L241:Guild Wars Factions Collector's Edition/07_The_Undercity.wma[600],Guild Wars Factions Collector's Edition/09_Plagued_Land.wma[700]
+# Sunjiang District
+L256:Guild Wars Factions Collector's Edition/07_The_Undercity.wma[600],Guild Wars Factions Collector's Edition/09_Plagued_Land.wma[700]
+# Dragon's Throat
+L274:Guild Wars Factions Collector's Edition/07_The_Undercity.wma[600],Guild Wars Factions Collector's Edition/09_Plagued_Land.wma[700]
+# Divine Path
+L351:Guild Wars Factions Original Soundtrack/24_Bonus_Track_4.wma[600],Guild Wars Factions Original Soundtrack/01_Guild_Wars_Factions_Theme.mp3[600]
+#
+## ---
+# Adventuring Outposts
+## ---
+#
+outcosc:Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/30_The_Elementalist(Bonus).wma[1600]
+outcosd:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200]
+#
+## ---
+#
+outcryc:Guild Wars Special Edition Soundtrack/07a_Divinity_Coast(Bonus_v3).wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
+outcryd:Guild Wars Special Edition Soundtrack/30_The_Elementalist(Bonus).wma[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
+#
+## ---
+#
+outednc:Guild Wars Battle Pak One/06_Riverside_Province.wma[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/07a_Divinity_Coast(Bonus_v3).wma[1200],Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
+outednd:Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/17_Aidan's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/07_Sands_of_Kryta.mp3[1200]
+#
+## ---
+#
+outovrc:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1600]
+outovrd:Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[1200],Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200]
+#
+## ---
+#
+outscrc:Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[1200],Guild Wars Special Edition Soundtrack/30_The_Elementalist(Bonus).wma[1600]
+outscrd:Guild Wars Battle Pak One/06_Riverside_Province.wma[1200],Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200]
+#
+## ---
+#
+outsnwc:Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],Guild Wars Special Edition Soundtrack/04_Over_the_Shiverpeaks.mp3[1200]
+outsnwd:Guild Wars Special Edition Soundtrack/14_Crystal_Oasis.mp3[1200],Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[1200]
+#
+## ---
+#
+outvolc:Guild Wars Special Edition Soundtrack/07_Sands_of_Kryta.mp3[1200],Guild Wars Special Edition Soundtrack/19_Hall_of_Heroes.mp3[1200]
+outvold:Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
+#
+## ---
+#
+outposc:Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
+outposd:Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200]
+#
+## ---
+#
+outpose:Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200]
+outposf:Guild Wars Battle Pak One/16_Rebirth.wma[1600]
+#
+## ---
+#
+outposr:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/19_Hall_of_Heroes.mp3[1200],Guild Wars Battle Pak One/02_Once_More_into_the_Breach.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+outposs:Guild Wars Battle Pak One/13_Prisoners_of_War.wma[1200],Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+outposx:Guild Wars Special Edition Soundtrack/24a_The_Great_Raid(Bonus_v3).wma[1400],Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/18_Guilds_At_War.mp3[1200],Guild Wars Battle Pak One/14_Bloodstone_Fen.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+#
+## ---
+#
+outpost:Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
+#
+## ---
+# PvP Outposts
+## ---
+#
+outglda:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/19_Hall_of_Heroes.mp3[1200],Guild Wars Battle Pak One/02_Once_More_into_the_Breach.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+outgldb:Guild Wars Battle Pak One/13_Prisoners_of_War.wma[1200],Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+outrfta:Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+outrftb:Guild Wars Special Edition Soundtrack/10_Devona's_Theme.mp3[1200],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1200],Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000]
+#
+## ---
+# PvP music
+## ---
+#
+riftgld:Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+riftina:Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/10_Devona's_Theme.mp3[1200],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1200],Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000]
+#
+## ---
+# Sorrow's Furnace Mini-Pak
+## ---
+#
+snowsaa:Sorrow's Furnace Mini-Pak/01_The_Foundry.mp3[400],Sorrow's Furnace Mini-Pak/02_Dark_Forge.mp3[800]
+snowsab:Sorrow's Furnace Mini-Pak/03_Grenth's_Footprint.mp3[800],Sorrow's Furnace Mini-Pak/04_Sorrow's_Furnace.mp3[800]
+snowsac:Sorrow's Furnace Mini-Pak/05_The_Latch.mp3[800],Sorrow's Furnace Mini-Pak/07_Stone_Summit.mp3[800]
+snowdaa:Sorrow's Furnace Mini-Pak/01_The_Foundry.mp3[800],Sorrow's Furnace Mini-Pak/02_Dark_Forge.mp3[800],Sorrow's Furnace Mini-Pak/08_Strenuous_Trek.mp3[200]
+snowdab:Sorrow's Furnace Mini-Pak/03_Grenth's_Footprint.mp3[400],Sorrow's Furnace Mini-Pak/04_Sorrow's_Furnace.mp3[400]
+snowdac:Sorrow's Furnace Mini-Pak/05_The_Latch.mp3[800],Sorrow's Furnace Mini-Pak/07_Stone_Summit.mp3[800]
+#
+## ---
+#
+dungbsi:Sorrow's Furnace Mini-Pak/06_Sorrow's_Stand.mp3[600]
+dungbsa:Sorrow's Furnace Mini-Pak/06_Sorrow's_Stand.mp3[600],Sorrow's Furnace Mini-Pak/08_Strenuous_Trek.mp3[200]
+dungbsb:Sorrow's Furnace Mini-Pak/06_Sorrow's_Stand.mp3[600],Sorrow's Furnace Mini-Pak/08_Strenuous_Trek.mp3[200]
+dungbsc:Sorrow's Furnace Mini-Pak/06_Sorrow's_Stand.mp3[600],Sorrow's Furnace Mini-Pak/08_Strenuous_Trek.mp3[200]
+#
+## ---
+# Login music replacements
+## ---
+#
+loginze:Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1300],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200]
+loginzd:Guild Wars Special Edition Soundtrack/24_Temple_of_Tolerance.mp3[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+loginzc:Guild Wars Special Edition Soundtrack/05_Eye_of_the_Storm.mp3[1100],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+loginzb:Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[900],Guild Wars Special Edition Soundtrack/09_The_Moment_of_Truth.mp3[1400]
+loginza:Guild Wars Special Edition Soundtrack/01_Opening_Theme.mp3[600],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200]
+#
+# --> Obsolete chapter 2 login token
+#
+loginzz:Guild Wars Factions Original Soundtrack/24_Bonus_Track_4.wma[100],Guild Wars Factions Original Soundtrack/01_Guild_Wars_Factions_Theme.mp3[600],Guild Wars Battle Pak One/16_Rebirth.wma[1200],Guild Wars Factions Collector's Edition/01_Sunqua_Serenity.wma[700],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200]
+#
+# --> Obsolete chapter 3 login token
+#
+loginnf:Guild Wars Nightfall Original Soundtrack/01_Land_of_the_Golden_Sun.mp3[500],Guild Wars Nightfall Original Soundtrack/41_Alternate_Theme(Bonus).wma[500],Guild Wars Battle Pak One/16_Rebirth.wma[1200],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200]
+#
+# --> Current game plays loginen
+#
+loginen:Guild Wars Eye of the North Original Soundtrack/02_Overture_from_Eye_of_the_North.wma[450],Guild Wars Battle Pak One/16_Rebirth.wma[1200],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200]
+#
+## ---
+# Adventuring music
+## ---
+#
+coasada:Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200],Guild Wars Battle Pak One/07_Converging_Descent.wma[1200],Guild Wars Special Edition Soundtrack/24_Temple_Of_Tolerance.mp3[1200],Guild Wars Special Edition Soundtrack/32_Beyond_the_Ocean(Bonus).wma[1200]
+#
+## ---
+#
+crysada:Guild Wars Battle Pak One/07_Converging_Descent.wma[1200],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200],Guild Wars Special Edition Soundtrack/23_Ascension_Song.mp3[1200],Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3
+#
+## ---
+#
+edenada:Guild Wars Special Edition Soundtrack/05_Eye_of_the_Storm.mp3[1200],Guild Wars Special Edition Soundtrack/14_Crystal_Oasis.mp3[1200],Guild Wars Special Edition Soundtrack/29_First_Light(Bonus).wma[1200],Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
+edenadb:Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/17_Aidan's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/07_Sands_of_Kryta.mp3[1200],Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
+#
+## ---
+#
+# Extra bonus points if you can find where this is played in the game.
+fountna:Guild Wars Special Edition Soundtrack/06_Prince_Rurik's_Theme.mp3[1200]
+#
+## ---
+#
+geneada:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/19_Hall_of_Heroes.mp3[1200],Guild Wars Battle Pak One/02_Once_More_into_the_Breach.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+geneadb:Guild Wars Battle Pak One/13_Prisoners_of_War.wma[1200],Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+geneadc:Guild Wars Special Edition Soundtrack/24a_The_Great_Raid(Bonus_v3).wma[1400],*,Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/18_Guilds_At_War.mp3[1200],Guild Wars Battle Pak One/14_Bloodstone_Fen.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200],Guild Wars Battle Pak One/03_Tomb_of_the_Primeval_Kings.wma[1200]
+geneadd:Guild Wars Battle Pak One/12_Fort_Ranik_March.wma[1200],Guild Wars Special Edition Soundtrack/26_The_Charr.mp3[1200],Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000],Guild Wars Battle Pak One/03_Tomb_of_the_Primeval_Kings.wma[1200],Guild Wars Special Edition Soundtrack/25_Althea's_Theme.mp3[1200],Guild Wars Battle Pak One/12_Fort_Ranik_March.wma[1200],Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200]
+#
+## ---
+#
+scorada:Guild Wars Battle Pak One/07_Converging_Descent.wma[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/26_The_Charr.mp3[1200],Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/21_Whitman's_Folly.mp3[1200],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+scoradb:Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/27_The_Great_Northern_Wall.mp3[1200],Guild Wars Special Edition Soundtrack/11_Cynn's_Theme.mp3[1200],Guild Wars Battle Pak One/14_Bloodstone_Fen.wma[1200],Guild Wars Special Edition Soundtrack/21_Whitman's_Folly.mp3[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+#
+## ---
+#
+snowada:Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Special Edition Soundtrack/28_Droknar's_Forge.mp3[900],Guild Wars Battle Pak One/07_Converging_Descent.wma[1200],Guild Wars Special Edition Soundtrack/11_Cynn's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/21_Whitman's_Folly.mp3[1200],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+#
+## ---
+#
+villaga:Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200],Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1200],Guild Wars Special Edition Soundtrack/17_Aidan's_Theme.mp3[1200]
+#
+## ---
+#
+volcada:Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Battle Pak One/13_Prisoners_of_War.wma[1200],Guild Wars Special Edition Soundtrack/08_The_Door_of_Komalie.mp3[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Battle Pak One/07_Converging_Descent.wma[1200],Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3[1200],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200],Guild Wars Special Edition Soundtrack/22_Tasca's_Theme.mp3[1200],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200]
+volcadb:Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000],Guild Wars Special Edition Soundtrack/13_Abaddon's_Mouth.mp3[1200],Guild Wars Battle Pak One/02_Once_More_into_the_Breach.wma[1200],Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3[1200],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200],Guild Wars Special Edition Soundtrack/21_Whitman's_Folly.mp3[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+#
+## ---
+# Guild Wars Factions Original Soundtrack and Guild Wars Special Edition Soundtrack music
+## ---
+#
+ruraada:Guild Wars Factions Original Soundtrack/03_Shing_Jea_Monastery.mp3[600],Guild Wars Factions Original Soundtrack/17_Zen_Daijun.mp3[600]
+ruraadb:Guild Wars Factions Original Soundtrack/07_Harvest_Festival.mp3[600],Guild Wars Factions Original Soundtrack/16_Minister_Cho's_Estate.mp3[600],Guild Wars Factions Collector's Edition/01_Sunqua_Serenity.wma[700]
+ruraadc:Guild Wars Factions Original Soundtrack/02_Age_of_the_Dragon.mp3[600],Guild Wars Factions Original Soundtrack/12_Ritualist's_Theme.mp3[600],Guild Wars Factions Collector's Edition/05_Contemplating_Mount_Qinkai.wma[700]
+petrada:Guild Wars Factions Original Soundtrack/10_Echovald_Forest.mp3[600],Guild Wars Factions Collector's Edition/06_Into_the_Thicket.wma[700],Guild Wars Factions Original Soundtrack/13_Arborstone.mp3[600],Guild Wars Factions Collector's Edition/03_A_Land_Divided.wma[700],Guild Wars Factions Original Soundtrack/15_The_Eternal_Grove.mp3[600]
+petradb:Guild Wars Factions Original Soundtrack/14_Tanglewood_Copse.mp3[600],Guild Wars Factions Collector's Edition/04_Weight_of_the_World.wma[700],Guild Wars Factions Original Soundtrack/05_Kurzick_Theme.mp3[600],Guild Wars Factions Collector's Edition/08_Closer_to_the_Stars.wma[800]
+seabada:Guild Wars Factions Original Soundtrack/08_Coastline.mp3[600],Guild Wars Factions Collector's Edition/05_Contemplating_Mount_Qinkai.wma[700]
+seabadb:Guild Wars Factions Original Soundtrack/09_Jade_Sea.mp3[600],Guild Wars Factions Collector's Edition/08_Closer_to_the_Stars.wma[700]
+seabadc:Guild Wars Factions Original Soundtrack/04_Luxon_Theme.mp3[600]
+urbaada:*,Guild Wars Factions Original Soundtrack/19_Raisu_Palace.mp3[600],Guild Wars Factions Collector's Edition/02_Emperor_Kisu's_Theme.wma[700]
+urbaadb:Guild Wars Factions Original Soundtrack/21_Bonus_Track_1.wma[600],Guild Wars Factions Collector's Edition/03_A_Land_Divided.wma[700]
+urbaadc:Guild Wars Factions Original Soundtrack/22_Bonus_Track_2.wma[600],Guild Wars Factions Collector's Edition/04_Weight_of_the_World.wma[700],Guild Wars Factions Collector's Edition/08_Closer_to_the_Stars.wma[800]
+outrura:Guild Wars Factions Original Soundtrack/03_Shing_Jea_Monastery.mp3[600],Guild Wars Factions Collector's Edition/01_Sunqua_Serenity.wma[700]
+outrurb:Guild Wars Factions Original Soundtrack/07_Harvest_Festival.mp3[600],Guild Wars Factions Collector's Edition/05_Contemplating_Mount_Qinkai.wma[700]
+outrurc:Guild Wars Factions Original Soundtrack/04_Luxon_Theme.mp3[600],Guild Wars Factions Original Soundtrack/11_Assassin's_Theme.mp3[600]
+outpeta:Guild Wars Factions Original Soundtrack/10_Echovald_Forest.mp3[600],Guild Wars Factions Original Soundtrack/13_Arborstone.mp3[600]
+outpetb:Guild Wars Factions Original Soundtrack/05_Kurzick_Theme.mp3[600]
+outurba:*,Guild Wars Factions Original Soundtrack/19_Raisu_Palace.mp3[600]
+outurbb:Guild Wars Factions Original Soundtrack/21_Bonus_Track_1.wma[600]
+outurbc:Guild Wars Factions Original Soundtrack/22_Bonus_Track_2.wma[600]
+outseaa:Guild Wars Factions Original Soundtrack/08_Coastline.mp3[600]
+outseab:Guild Wars Factions Original Soundtrack/09_Jade_Sea.mp3[600]
+outseac:Guild Wars Factions Original Soundtrack/04_Luxon_Theme.mp3[600]
+canadab:Guild Wars Factions Original Soundtrack/06_Kaineng_City.mp3[600],Guild Wars Factions Original Soundtrack/20_Day_of_the_Jade_Wind.mp3[600]
+#
+## ---
+# Guild Wars Nightfall Original Soundtrack and Guild Wars Nightfall Collector's Edition music
+## ---
+#
+outdela:Guild Wars Nightfall Original Soundtrack/02_Guardian_Sunspears.mp3[500],Guild Wars Nightfall Collector's Edition/02_Champion's_Dawn.wma[500]
+outdelb:Guild Wars Nightfall Original Soundtrack/11_Haunted_Ruins.mp3[500]
+outdelc:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500],*
+deladaa:Guild Wars Nightfall Original Soundtrack/02_Guardian_Sunspears.mp3[500],Guild Wars Nightfall Collector's Edition/02_Champion's_Dawn.wma[500]
+deladab:Guild Wars Nightfall Original Soundtrack/11_Haunted_Ruins.mp3[500]
+deladac:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500]
+outlowa:Guild Wars Nightfall Original Soundtrack/09_Fortress_of_Jahai.mp3[500],Guild Wars Nightfall Collector's Edition/04_Pogahn_Passage.wma[500]
+outlowb:Guild Wars Nightfall Original Soundtrack/20_The_Forgotten_God.mp3[500],Guild Wars Nightfall Collector's Edition/05_Arkjok_Wards.wma[500]
+outlowc:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500],*
+lowadaa:Guild Wars Nightfall Original Soundtrack/09_Fortress_of_Jahai.mp3[500],Guild Wars Nightfall Collector's Edition/04_Pogahn_Passage.wma[500]
+lowadab:Guild Wars Nightfall Original Soundtrack/20_The_Forgotten_God.mp3[500],Guild Wars Nightfall Collector's Edition/05_Arkjok_Wards.wma[500]
+lowadac:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500]
+outhiga:Guild Wars Nightfall Original Soundtrack/06_Festival_of_Lyss.mp3[500],Guild Wars Nightfall Collector's Edition/03_Wilderness_of_Bahdza.wma[500]
+outhigb:Guild Wars Nightfall Original Soundtrack/18_Garden_of_Seborhin.mp3[500]
+outhigc:Guild Wars Nightfall Original Soundtrack/28_Resplendent_Makuun.mp3[500],*
+higadaa:Guild Wars Nightfall Original Soundtrack/06_Festival_of_Lyss.mp3[500],Guild Wars Nightfall Collector's Edition/03_Wilderness_of_Bahdza.wma[500]
+higadab:Guild Wars Nightfall Original Soundtrack/18_Garden_of_Seborhin.mp3[500]
+higadac:Guild Wars Nightfall Original Soundtrack/28_Resplendent_Makuun.mp3[500]
+outbada:Guild Wars Nightfall Original Soundtrack/03_Lost_Dynasties.mp3[500],Guild Wars Nightfall Collector's Edition/01_The_Bone_Palace.wma[500]
+outbadb:Guild Wars Nightfall Original Soundtrack/12_Turai's_Legacy.mp3[500]
+outbadc:Guild Wars Nightfall Original Soundtrack/22_Black_Sails_at_Dawn.mp3[500]
+badadaa:Guild Wars Nightfall Original Soundtrack/03_Lost_Dynasties.mp3[500],Guild Wars Nightfall Collector's Edition/01_The_Bone_Palace.wma[500]
+badadab:Guild Wars Nightfall Original Soundtrack/12_Turai's_Legacy.mp3[500]
+badadac:Guild Wars Nightfall Original Soundtrack/22_Black_Sails_at_Dawn.mp3[500]
+outniga:Guild Wars Nightfall Original Soundtrack/*
+outnigb:Guild Wars Nightfall Original Soundtrack/16_Tortured_Souls.mp3[500],Guild Wars Nightfall Collector's Edition/06_Reign_of_Anguish.wma[500]
+outnigc:Guild Wars Nightfall Original Soundtrack/26_Web_of_Terror.mp3[500]
+nitadaa:Guild Wars Nightfall Original Soundtrack/*
+nitadab:Guild Wars Nightfall Original Soundtrack/16_Tortured_Souls.mp3[500],Guild Wars Nightfall Collector's Edition/06_Reign_of_Anguish.wma[500]
+nitadac:Guild Wars Nightfall Original Soundtrack/26_Web_of_Terror.mp3[500]
+battnfa:Guild Wars Nightfall Original Soundtrack/05_Gathering_Storm(Extended).wma[350]
+battnfb:Guild Wars Nightfall Original Soundtrack/17_Sunspear_Assault.mp3[350]
+battnfc:Guild Wars Nightfall Original Soundtrack/10_Pride_of_the_Centaurs.mp3[350]
+battnff:Guild Wars Nightfall Original Soundtrack/21_Corsair_Armada.mp3[500]
+battnfg:Guild Wars Nightfall Original Soundtrack/27_Invasion_of_Vabbi.mp3[500]
+battnfh:Guild Wars Nightfall Original Soundtrack/31_Into_the_Breach.mp3[400]
+battnfi:Guild Wars Nightfall Original Soundtrack/34_Desperate_Flight.mp3[400]
+#
+## ---
+# Guild Wars Eye of the North Original Soundtrack
+## ---
+#
+# Ambient
+enamste:Guild Wars Eye of the North Original Soundtrack/08_The_Doomlore_Flame.wma[550]
+enammou:Guild Wars Eye of the North Original Soundtrack/14_Horns_of_Gunnar's_Hold.wma[550]
+enamina:Guild Wars Eye of the North Original Soundtrack/07_Through_the_Asura_Gates.wma[550]
+enaminb:Guild Wars Eye of the North Original Soundtrack/03_Ballad_of_Ice_and_Snow.wma[550]
+enamsub:Guild Wars Eye of the North Original Soundtrack/16_Darkness_Beneath.wma[550]
+enamgea:Guild Wars Special Edition Soundtrack/19_Hall_of_Heroes.mp3[1200]
+enamgeb:Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200]
+enampea:Guild Wars Factions Original Soundtrack/10_Echovald_Forest.mp3[800]
+enampeb:Guild Wars Factions Original Soundtrack/05_Kurzick_Theme.mp3[800]
+enamsca:Guild Wars Special Edition Soundtrack/26_The_Charr.mp3[1200]
+enamscb:Guild Wars Special Edition Soundtrack/27_The_Great_Northern_Wall.mp3[1200]
+enamsci:*
+enamsna:Guild Wars Special Edition Soundtrack/28_Droknar's_Forge.mp3[900]
+enamsnb:Guild Wars Special Edition Soundtrack/04_Over_the_Shiverpeaks.mp3[1200]
+enamsni:Guild Wars Special Edition Soundtrack/22_Tasca's_Theme.mp3[1200]
+# Battle (basic)
+enbabaa:Guild Wars Eye of the North Original Soundtrack/21_Iron_Footfalls.wma[450]
+enbabab:Guild Wars Eye of the North Original Soundtrack/09_March_Through_Norrhart.wma[450]
+enbabac:Guild Wars Eye of the North Original Soundtrack/13_Claiming_Balthazar's_Favor.wma[450]
+enbabad:*
+enbabae:*
+enbabaf:Guild Wars Eye of the North Original Soundtrack/28_The_Great_Bear's_Roar.wma[450]
+enbabag:*
+# Battle (boss)
+enbaboa:Guild Wars Eye of the North Original Soundtrack/11_Kathandrax.wma[450]
+enbabob:Guild Wars Eye of the North Original Soundtrack/20_Darkrime_Delves.wma[450]
+enbaboc:
+enbabod:
+enbaboe:Guild Wars Eye of the North Original Soundtrack/26_The_Primordial.wma[450]
+# Epic
+enepnor:Guild Wars Eye of the North Original Soundtrack/24_Song_of_the_Shiverpeaks_(Norn_Theme).wma[450]
+enepasu:Guild Wars Eye of the North Original Soundtrack/06_Under_the_Dark_Span_(Asura_Theme).wma[450]
+enepdwa:Guild Wars Eye of the North Original Soundtrack/15_Tome_of_Rubicon_(Dwarf_Theme).wma[450]
+enepdes:Guild Wars Eye of the North Original Soundtrack/18_The_Shattering_of_the_World_(Destroyer_Theme).wma[450]
+# Cues
+enciwis:Guild Wars Eye of the North Original Soundtrack/12_Memories_of_Ascalon.wma[550]
+encigwe:Guild Wars Eye of the North Original Soundtrack/04_Gwen's_Theme.wma[550]
+enciwon:Guild Wars Eye of the North Original Soundtrack/33_Legacy_of_the_Gods.wma[550]
+encithr:*
+encibro:*
+encimag:*
+encimil:Guild Wars Eye of the North Original Soundtrack/22_Victory_Banners.wma[550]
+encirev:*
+enciten:Guild Wars Eye of the North Original Soundtrack/25_Central_Transfer_Chamber.wma[550]
+encidan:*
+enciint:Guild Wars Eye of the North Original Soundtrack/32_The_Sun_Beyond_the_Peaks.wma[550]
+encihum:Guild Wars Eye of the North Original Soundtrack/17_Lyssa's_Dance.wma[550]
+encitri:Guild Wars Eye of the North Original Soundtrack/10_Livia's_Heart.wma[550]
+enciurg:Guild Wars Eye of the North Original Soundtrack/19_Ogden_Stonehealer.wma[550]
+# Default EotN token (reverts to in-game music)
+endefau:*
+#
+##
+## ---
+# Default ambient (Prophesies)
+## ---
+#
+ambient:Guild Wars Special Edition Soundtrack/07a_Divinity_Coast(Bonus_v3).wma[1200],*
+#
+## ---
+# Default ambient (Factions)
+## ---
+#
+ambienf:Guild Wars Factions Original Soundtrack/11_Assassin's_Theme.mp3[1000],Guild Wars Factions Original Soundtrack/12_Ritualist's_Theme.mp3[1000],*
+#
