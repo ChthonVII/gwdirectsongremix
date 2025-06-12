@@ -4,14 +4,14 @@
 
 Here is how control flow seems to work, based on the (sparse) documentation and my experiments on Shing Jea Island. It's possible behavior is different for other chapters.
 1. When Gw.exe is about to play a song, it sends 3 tokens to ds_GuildWars.dll.
-     - Tokens are probably usually `L***` for the specific zone, `out****` or `***ada*` for outpost or adventuring, and some kind of ambient fallback.
+     - Tokens are probably usually `L***` for the specific zone, `out****` or `***aad*` for outpost or adventuring, and some kind of ambient fallback.
      - The documentation isn't super clear. It's possible it meant "three tokens plus the `L***` token," so maybe there's another token with intermediate generality between outpost/adventuring and ambient. (Prophecies has some token names that suggest this. But they might also just be deprecated cruft. To be revisited.) 
      - The token sent does not always correlate with the song Gw.exe is about to play. For instance, in most cases `outrura` means "I'm about to play the song 'Shing Jae Monastery'," but in a couple cases, it does not.
 2. ds_GuildWars.dll scans each line of GuildWars.ds for a match for any token.
      - The first matching line is picked. So the order of lines in GuildWars.ds matters.
      - If no matching line is found, ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play.
 3. Assuming there was a match, ds_GuildWars.dll plays the next entry from the playlist for that token. The first time a token's playlist is selected, the first entry plays; the second time, the second entry; the third time, the third entry; and so on, looping back to the first entry after the last one.
-     - There is some persistent memory about the position of each playlist. For instance, if you log in to Tsumei Village, wait for `outrura` to play twice, then map to Ran Musu Gardens and wait for `outrura` again, it will play the third item in the list. Likewise, if you log in to Tsumei Village, wait for `outrura` to play twice, walk out into Panjiang Peninsula, listen to a few songs, then walk back into Tsumei Village and wait for `outrura` again, it will play the third entry in the list. It's not presently known whether the position of every playlist is always stored, or only the positions for a few recently used playlists.
+     - There is some persistent memory about the position of each playlist. For instance, if you log in to Tsumei Village, wait for `outrura` to play twice, then map to Ran Musu Gardens and wait for `outrura` again, it will play the third entry in the list. Likewise, if you log in to Tsumei Village, wait for `outrura` to play twice, walk out into Panjiang Peninsula, listen to a few songs, then walk back into Tsumei Village and wait for `outrura` again, it will play the third entry in the list. It's not presently known whether the position of every playlist is always stored, or only the positions for a few recently used playlists.
 4. If the entry selected is `*`, then ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play. Same result as no matching token or DirectSong not installed at all.
 5. If the entry selected points to a file, ds_GuildWars.dll tells Gw.exe it has a match, Gw.exe defers, and ds_GuildWars.dll tries to decode the file.
 6. If the file won't play (corrupted file, DRM, can't decode wma, etc.), then it skips to the next entry in the playlist. (What happens if none of the files can be played?)
@@ -52,11 +52,19 @@ Following token stream, always:
      - Token stream:
           - The first token upon entering the zone is a random pick from `urbaada`, `urbaadb`, or `urbaada`.
           - All other tokens are random picks from `outurba`, `outurbb`, and `outurbc`.
-          - This is weird and needs investigation.
-- The Marketplace (and presumably most other outposts)
+          - This is weird. My best guess is it's a misguided attempt to force the first track to the iconic city ambient track missing from the soundtrack CD, while maintaining randomness for the remainder. (If so, it doesn't work because there's no guarantee of hitting `outurba` (the only one with `*`) or hitting the `*` entry within `outurba`. Perhaps it worked differently at some point in the past...)
+- All other outposts
      - Token stream: Random picks from `outurba`, `outurbb`, and `outurbc`.
-- Budek Byway (and presumbly most other explorables/missions)
+- No-DirectSong/`*` outpost behavior: `outurba` = `outurbb` = `outurbc` = iconic city ambient track missing from soundtrack CD
+- Raisu Palace explorable, Raisu Palace mission, Raisu Pavillion, and Divine Path
+     - Token stream: Always `canadab`
+- All other explorables and missions
      - Token stream: Random picks from `urbaada`, `urbaadb`, and `urbaada`.
+- No-DirectSong/`*` explorable/mission behavior:
+     - `urbaada` = `urbaadb` = `urbaada` = iconic city ambient track missing from soundtrack CD
+     - `canadab` = "Kaineng City"
+- The default GuildWars.ds accomplishes different tracks for the sewers, for final 2 missions, and for Divine Path via `L***` tokens.
+- It seems this is all these is to learn about the urban soundtrack.
 
 ## Istan
 - Kamadan
