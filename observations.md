@@ -51,10 +51,15 @@ Following token stream, always:
 - Kaineng Center
      - Token stream:
           - The first token upon entering the zone is a random pick from `urbaada`, `urbaadb`, or `urbaada`.
+               - This is weird. My best guess is it's a bug. Maybe a leftover from some kind of intro fanfare that got dropped?
+               - The game does not wait for the track to finish before advancing to the next song. So you get a couple seconds of the first song, then it cuts off and plays the second.
+               - It doesn't do it if the entire playlist is just `*`. That's probably what it's going to have to be.
+               - Using a two-entry playlist where the first one is a split-second silence sort of works. If it plays first, there's nothing to get cut off. And its brevity makes it unlikely to be the song you leave during, so it should always be the next song when you come back. But... it doubles up the delay between tracks, creating really awkward long silence.
+               - If DirectSong dll is removed, it just plays the default track normally.
           - All other tokens are random picks from `outurba`, `outurbb`, and `outurbc`.
-          - This is weird. My best guess is it's a misguided attempt to force the first track to the iconic city ambient track missing from the soundtrack CD, while maintaining randomness for the remainder. (If so, it doesn't work because there's no guarantee of hitting `outurba` (the only one with `*`) or hitting the `*` entry within `outurba`. Perhaps it worked differently at some point in the past...)
 - All other outposts
      - Token stream: Random picks from `outurba`, `outurbb`, and `outurbc`.
+     - It seems like the L token isn't sent the first time you visit Dragon's Throat in a session. But it works correctly if you leave and come back. I don't see any fix for this.
 - No-DirectSong/`*` outpost behavior: `outurba` = `outurbb` = `outurbc` = iconic city ambient track missing from soundtrack CD
 - Raisu Palace explorable, Raisu Palace mission, Raisu Pavillion, and Divine Path
      - Token stream: Always `canadab`
