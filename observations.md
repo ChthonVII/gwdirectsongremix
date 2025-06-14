@@ -71,6 +71,47 @@ Following token stream, always:
 - The default GuildWars.ds accomplishes different tracks for the sewers, for final 2 missions, and for Divine Path via `L***` tokens.
 - It seems this is all these is to learn about the urban soundtrack.
 
+## Echovald Forest
+- Tanglewood Copse
+     - Token stream: random picks from `outurba`, `outurbb`, and `outurbc`.
+     - If given `*` does indeed play default urban track.
+- Jade Flats and Jade Quarry
+     - Token stream: random picks from `outseaa`, `outseab`, and `outseac`
+- Unwaking Waters
+     - Token stream: random picks from `outseaa`, `outseab`, and `outseac`
+- All other outposts:
+     - Token stream: random picks from `outpeta` and `outpetb`
+- All explorables and missions
+     - token stream: random picks from `petrada` and `petradb`
+     - didn't test Fort Aspenwood for lack of players
+- Todo: Test Urgoz
+- No-DirectSong/`*` behavior:
+     - `outpeta` = "Echovald Forest"
+     - `outpetb` = "Kurzick Theme"
+     - `petrada` = "Echovald Forest"
+     - `petrada` = "Kurzick Theme"
+     
+## Jade Sea
+- Aspenwood Gate and Fort Aspenwood
+     - Token stream: random picks from `outpeta` and `outpetb`
+- All other outposts:
+     - Includes Harvest Temple
+     - Token stream: random picks from `outseaa`, `outseab`, and `outseac`
+- All explorables and missions
+     - Includes Unwaking Waters mission and explorable
+     - token stream: random picks from `seabada`, `seabadb` and `seabadc`
+     - didn't test Jade Quarry for lack of players
+- Todo: Test Deep
+- Todo: Test which L tockens really control what in Unwaking Waters
+- No-DirectSong/`*` behavior:
+     - `outseaa` = "Coastline"
+     - `outseab` = "Jade Sea"
+     - `outseac` = "Luxon Theme"
+     - `seabada` = "Coastline"
+     - `seabadb` = "Jade Sea"
+     - `seabadc` = "Luxon Theme"
+     
+
 ## Istan
 - Kamadan
      - Token stream: Random picks from `outdela`, `outdelb`, and `outdelc`.
