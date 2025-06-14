@@ -4,19 +4,26 @@
 
 Here is how control flow seems to work, based on the (sparse) documentation and my experiments on Shing Jea Island. It's possible behavior is different for other chapters.
 1. When Gw.exe is about to play a song, it sends 3 tokens to ds_GuildWars.dll.
-     - Tokens are probably usually `L***` for the specific zone, `out****` or `***aad*` for outpost or adventuring, and some kind of ambient fallback.
+     - Tokens are probably usually `L***` for the specific zone, `out****` or `****ad*` for outpost or adventuring, and some kind of ambient fallback.
      - The documentation isn't super clear. It's possible it meant "three tokens plus the `L***` token," so maybe there's another token with intermediate generality between outpost/adventuring and ambient. (Prophecies has some token names that suggest this. But they might also just be deprecated cruft. To be revisited.) 
-     - The token sent does not always correlate with the song Gw.exe is about to play. For instance, in most cases `outrura` means "I'm about to play the song 'Shing Jae Monastery'," but in a couple cases, it does not.
+     - The token sent does not always correlate with the song Gw.exe is about to play. For instance, in most cases `outrura` means "I'm about to play the song 'Shing Jea Monastery'," but in a couple cases, it does not.
 2. ds_GuildWars.dll scans each line of GuildWars.ds for a match for any token.
      - The first matching line is picked. So the order of lines in GuildWars.ds matters.
      - If no matching line is found, ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play.
-3. Assuming there was a match, ds_GuildWars.dll plays the next entry from the playlist for that token. The first time a token's playlist is selected, the first entry plays; the second time, the second entry; the third time, the third entry; and so on, looping back to the first entry after the last one.
-     - There is some persistent memory about the position of each playlist. For instance, if you log in to Tsumei Village, wait for `outrura` to play twice, then map to Ran Musu Gardens and wait for `outrura` again, it will play the third entry in the list. Likewise, if you log in to Tsumei Village, wait for `outrura` to play twice, walk out into Panjiang Peninsula, listen to a few songs, then walk back into Tsumei Village and wait for `outrura` again, it will play the third entry in the list. It's not presently known whether the position of every playlist is always stored, or only the positions for a few recently used playlists.
-4. If the entry selected is `*`, then ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play. Same result as no matching token or DirectSong not installed at all.
-5. If the entry selected points to a file, ds_GuildWars.dll tells Gw.exe it has a match, Gw.exe defers, and ds_GuildWars.dll tries to decode the file.
-6. If the file won't play (corrupted file, DRM, can't decode wma, etc.), then it skips to the next entry in the playlist. (What happens if none of the files can be played?)
-7. Volume is indicated after each file in square brackets. The units are negative millibels full scale. So "[0]" means 100% full scale volume. And "[1000]" means 10% full scale volume. **Bigger numbers are softer.** (Note, however, that human hearing is more or less logarithmic, so millibels feel linear.)
-     - Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bombastic file was given a large number to make it soft enough to pass as background music. But sometimes a soft file was given a large number in a mistaken attempt to make it louder. Oops! Hence the need for volume testing every file. (GW's mixing is weird, so we can't just predict how loud something's going to sound by calculating LUFS or whatever. (I tried. It didn't work.))
+3. Assuming there was a match for the token, ds_GuildWars.dll picks an entry from the list.
+    - If the list is blank, ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play.
+    - If the list is not blank, ds_GuildWars.dll picks the next entry from the playlist. The first time a token's playlist is selected, the first entry is picked; the second time, the second entry; the third time, the third entry; and so on, looping back to the first entry after the last one.
+    - There is some persistent memory about the position of each playlist. For instance, if you log in to Tsumei Village, wait for `outrura` to play twice, then map to Ran Musu Gardens and wait for `outrura` again, it will play the third entry in the list. Likewise, if you log in to Tsumei Village, wait for `outrura` to play twice, walk out into Panjiang Peninsula, listen to a few songs, then walk back into Tsumei Village and wait for `outrura` again, it will play the third entry in the list. It's not presently known whether the position of every playlist is always stored, or only the positions for a few recently used playlists.
+4. Once an entry is picked:
+     - If the entry picked is `*`, then ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play.
+     - If the entry picked points to a file, ds_GuildWars.dll tells Gw.exe it has a match, Gw.exe defers, and ds_GuildWars.dll tries to decode the file.
+          - If the file won't play (corrupted file, DRM, can't decode wma, etc.), then it skips to the next entry in the playlist. (TODO: Double check that it's not just failing and GW.exe sends another token rather than the next track.) (TODO: What happens if none of the files can be played?)
+     - TODO: What happens with malformed entries?
+     - TODO: Are those `pathname/*` entries in Nightfall valid?
+
+Volume is indicated after each file in square brackets. The units are negative millibels full scale. So "[0]" means 100% full scale volume. And "[1000]" means 10% full scale volume. **Bigger numbers are softer.** (Note, however, that human hearing is more or less logarithmic, so millibels feel linear.)
+
+Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bombastic file was given a large number to make it soft enough to pass as background music. But sometimes a soft file was given a large number in a mistaken attempt to make it louder. Oops! Hence the need for volume testing every file. (GW's mixing is weird, so we can't just predict how loud something's going to sound by calculating LUFS or whatever. (I tried. It didn't work.))
 
 
 ## Login Screen
