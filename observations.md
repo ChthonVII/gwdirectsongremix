@@ -36,13 +36,39 @@ Following token stream, always:
 - `loginze`
 - (loop back to `loginen`)
 
+## Post-Searing Ascalon
+- All outposts
+     - Token stream is random picks from `outscrc`, `outscrd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+     - No-DirectSong/`*` behavior is:
+          - `outscrc`= "The Charr"
+          - `outscrd` = "The Great Northern Wall"
+          - `outpose` = "Guilds at War" (Needs more testing that this track is the same across all areas. So far tested Ascalon, Northern Shiverpeaks, and Kryta.)
+          - `outposf` = untitled song from the Catacombs, missing from the soundtrack CD.  (Needs more testing that this track is the same across all areas. So far tested Ascalon and Northern Shiverpeaks.)
+- TODO: Explorables/missions
+
+## Northern Shiverpeaks
+- All outposts (tested so far)
+    - Token stream is random picks from `outsnwc`, `outsnwd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+    - TODO: test all towns
+- TODO: explorables/missions
+
+## Kryta
+- Lion's Arch
+     - Token stream:
+          - The first token is always `villaga`.
+          - After that, random picks from `outcosc`, `outcosd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+- All other outposts (tested so far)
+    - Token stream is random picks from `outcosc`, `outcosd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+    - TODO: test all towns
+- TODO: explorables misisons
+    
 ## Shing Jea Island
 - Shing Jea Monestary/Seitung Harbor
      - Token stream is always `outrura` over and over.
      - No-DirectSong/`*` behavior alternates "Assassin's Theme" and "Ritualist's Theme."
 - All other outposts
      - Token stream is random picks from `outrura`, `outrurb` and `outrurc`.
-     -  No-DirectSong/`*` behavior is:
+     - No-DirectSong/`*` behavior is:
           -  `outrura` = "Shing Jea Monastery"
           -  `outrurb` = "Harvest Festival"
           -  `outrurc` = "Age of the Dragon"
@@ -57,8 +83,8 @@ Following token stream, always:
 ## Kaineng City 
 - Kaineng Center
      - Token stream:
-          - The first token upon entering the zone is a random pick from `urbaada`, `urbaadb`, or `urbaada`.
-               - This is weird. My best guess is it's a bug. Maybe a leftover from some kind of intro fanfare that got dropped?
+          - The first token upon entering the zone is a random pick from `urbaada`, `urbaadb`, or `urbaadc`.
+               - This is weird. My best guess is it's a bug. Maybe a leftover from some kind of intro fanfare that got dropped? Copy/paste from LA?
                - The game does not wait for the track to finish before advancing to the next song. So you get a couple seconds of the first song, then it cuts off and plays the second.
                - It doesn't do it if the entire playlist is just `*`. That's probably what it's going to have to be.
                - Using a two-entry playlist where the first one is a split-second silence sort of works. If it plays first, there's nothing to get cut off. And its brevity makes it unlikely to be the song you leave during, so it should always be the next song when you come back. But... it doubles up the delay between tracks, creating really awkward long silence.
@@ -71,9 +97,9 @@ Following token stream, always:
 - Raisu Palace explorable, Raisu Palace mission, Raisu Pavillion, and Divine Path
      - Token stream: Always `canadab`
 - All other explorables and missions
-     - Token stream: Random picks from `urbaada`, `urbaadb`, and `urbaada`.
+     - Token stream: Random picks from `urbaada`, `urbaadb`, and `urbaadc`.
 - No-DirectSong/`*` explorable/mission behavior:
-     - `urbaada` = `urbaadb` = `urbaada` = iconic city ambient track missing from soundtrack CD
+     - `urbaada` = `urbaadb` = `urbaadc` = iconic city ambient track missing from soundtrack CD
      - `canadab` = "Kaineng City"
 - The default GuildWars.ds accomplishes different tracks for the sewers, for final 2 missions, and for Divine Path via `L***` tokens.
 - It seems this is all these is to learn about the urban soundtrack.
