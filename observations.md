@@ -44,12 +44,19 @@ Following token stream, always:
           - `outscrd` = "The Great Northern Wall"
           - `outpose` = "Guilds at War" (Needs more testing that this track is the same across all areas. So far tested Ascalon, Northern Shiverpeaks, and Kryta.)
           - `outposf` = untitled song from the Catacombs, missing from the soundtrack CD.  (Needs more testing that this track is the same across all areas. So far tested Ascalon and Northern Shiverpeaks.)
-- TODO: Explorables/missions
+- All exporables and missions
+    - Token stream is random picks from `scorada` and `scoradb`.
+    - Somewhat surprisingly, no generic adventuring tracks mixed in.
+    - TODO: what is vanilla music?
 
 ## Northern Shiverpeaks
 - All outposts (tested so far)
     - Token stream is random picks from `outsnwc`, `outsnwd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
     - TODO: test all towns
+- Traveler's Vale
+    - Token stream is random picks from `snowada` and `crysada`
+    - No-DirectSong/`*` behavior for `crysada` is "Ascension Song," both in Shiverpeaks and Desert
+        - So the vanilla track is used in both places. The problem is addition of desert stuff to it. 
 - TODO: explorables/missions
 
 ## Kryta
@@ -61,6 +68,16 @@ Following token stream, always:
     - Token stream is random picks from `outcosc`, `outcosd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
     - TODO: test all towns
 - TODO: explorables misisons
+- Explorables quick check: `coasada` and `geneadc`
+    - TODO: check throroughly
+    - If `geneadc` isn't used elsewhere, it's essentially Kryta adventure B track
+    
+## Crystal Desert
+- Explorables quick check: `crysada` and `geneadd`
+    - TODO: check throroughly
+    - If `geneadd` isn't used elsewhere, it's essentially crsytal desert adventure B track
+    - No-DirectSong/`*` behavior for `crysada` is "Ascension Song," both in Shiverpeaks and Desert
+        - So the vanilla track is used in both places. The problem is addition of desert stuff to it. 
     
 ## Shing Jea Island
 - Shing Jea Monestary/Seitung Harbor
