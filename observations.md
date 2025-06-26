@@ -43,7 +43,7 @@ Following token stream, always:
           - `outscrc`= "The Charr"
           - `outscrd` = "The Great Northern Wall"
           - `outpose` = "Guilds at War" (Needs more testing that this track is the same across all areas. So far tested Ascalon, Northern Shiverpeaks, and Kryta.)
-          - `outposf` = untitled song from the Catacombs, missing from the soundtrack CD.  (Needs more testing that this track is the same across all areas. So far tested Ascalon and Northern Shiverpeaks.)
+          - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).  (Needs more testing that this track is the same across all areas. So far tested Ascalon and Northern Shiverpeaks.)
 - All exporables and missions
     - Token stream is random picks from `scorada` and `scoradb`.
     - Somewhat surprisingly, no generic adventuring tracks mixed in.
@@ -110,13 +110,13 @@ Following token stream, always:
 - All other outposts
      - Token stream: Random picks from `outurba`, `outurbb`, and `outurbc`.
      - It seems like the L token isn't sent the first time you visit Dragon's Throat in a session. But it works correctly if you leave and come back. I don't see any fix for this.
-- No-DirectSong/`*` outpost behavior: `outurba` = `outurbb` = `outurbc` = iconic city ambient track missing from soundtrack CD
+- No-DirectSong/`*` outpost behavior: `outurba` = `outurbb` = `outurbc` = [iconic city ambient track missing from soundtrack CD](https://www.youtube.com/watch?v=rVe99xBqDrg&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=8)
 - Raisu Palace explorable, Raisu Palace mission, Raisu Pavillion, and Divine Path
      - Token stream: Always `canadab`
 - All other explorables and missions
      - Token stream: Random picks from `urbaada`, `urbaadb`, and `urbaadc`.
 - No-DirectSong/`*` explorable/mission behavior:
-     - `urbaada` = `urbaadb` = `urbaadc` = iconic city ambient track missing from soundtrack CD
+     - `urbaada` = `urbaadb` = `urbaadc` = [iconic city ambient track missing from soundtrack CD](https://www.youtube.com/watch?v=rVe99xBqDrg&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=8)
      - `canadab` = "Kaineng City"
 - The default GuildWars.ds accomplishes different tracks for the sewers, for final 2 missions, and for Divine Path via `L***` tokens.
 - It seems this is all these is to learn about the urban soundtrack.
