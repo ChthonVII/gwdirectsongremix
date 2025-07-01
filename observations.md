@@ -43,21 +43,47 @@ Following token stream, always:
           - `outscrc`= "The Charr"
           - `outscrd` = "The Great Northern Wall"
           - `outpose` = "Guilds at War" (Needs more testing that this track is the same across all areas. So far tested Ascalon, Northern Shiverpeaks, and Kryta.)
-          - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).  (Needs more testing that this track is the same across all areas. So far tested Ascalon and Northern Shiverpeaks.)
+          - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).  (Needs more testing that this track is the same across all areas. So far tested Ascalon and Shiverpeaks.)
 - All exporables and missions
     - Token stream is random picks from `scorada` and `scoradb`.
     - Somewhat surprisingly, no generic adventuring tracks mixed in.
     - TODO: what is vanilla music?
 
-## Northern Shiverpeaks
-- All outposts (tested so far)
+## Shiverpeaks (Northern and Southern)
+- Granite Citadel
+    - Token stream is `outpost` over and over.
+    - No-DirectSong/`*` behavior:
+        - First play "Tasca's Demise," then random picks from "Tasca's Demise," "Over the Shiverpeaks," and "Droknar's Forge."
+        - Not sure if Granite Citadel and Deldrimor War Camp interact via shared playlist. 
+- Deldrimor War Camp
+    - Token stream is `outpost` over and over.
+    - No-DirectSong/`*` behavior:
+        - First play "Tasca's Demise," then random picks from "Tasca's Demise," "Over the Shiverpeaks," and "Droknar's Forge."
+        - The small cul-de-sac east of the portal is bugged. Walking into or out of that area will cut off the current track. TODO: Check if this affects DirectSong too.
+        - Not sure if Granite Citadel and Deldrimor War Camp interact via shared playlist. 
+- All other outposts:
     - Token stream is random picks from `outsnwc`, `outsnwd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
-    - TODO: test all towns
-- Traveler's Vale
+    - No-DirectSong/`*` behavior is:
+        - `outsnwc` = "Droknar's Forge"
+        - `outsnwd` = "Tasca's Demise"
+        - `outpose` = "Guilds at War" (Needs more testing that this track is the same across all areas. So far tested Ascalon, Northern Shiverpeaks, and Kryta.)
+        - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).  (Needs more testing that this track is the same across all areas. So far tested Ascalon and Shiverpeaks.)
+- Tasca's Demise:
+    - Small area outside Granite Citadel (extends about as far as the close edge of the closest big rock)
+        - Token stream is `outpost` over and over
+        - TODO: check vanilla behavior. Assuming same as Granite Citadel.
+    - Rest of zone is same as other snow zones.
+- Grenth's Footprint
+    - Token stream is random picks from `snowsaa`, `snowsab`, and `snowsac`
+    - TODO: check vanilla behavior
+- All other explorables/missions
     - Token stream is random picks from `snowada` and `crysada`
-    - No-DirectSong/`*` behavior for `crysada` is "Ascension Song," both in Shiverpeaks and Desert
-        - So the vanilla track is used in both places. The problem is addition of desert stuff to it. 
-- TODO: explorables/missions
+    - No-DirectSong/`*` behavior:
+        - `snowada` = "Droknar's Forge"
+        - `crysada` = "Ascension Song" (both in Shiverpeaks and Desert)
+        - Having `crysada` play in the mountains is correct insofar as the corresponding non-DS track does play there. The problem is that DirectSong makes it into a multi-song playlist tha tnow has to fit both locations.
+    - TODO: check Dreadnought's Drift
+-TODO: Sorrow's Furnace
 
 ## Kryta
 - Lion's Arch
