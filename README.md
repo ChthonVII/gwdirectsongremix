@@ -12,7 +12,7 @@ Improved Alternate Version of GuildWars.ds
 
 ## Status:
 - Prophecies: Research in progress
-- Sorrow's Furnace: None
+- Sorrow's Furnace: Research in progress
 - Factions: **Ready for testing!**
 - Nightfall: None
 - EotN: None
@@ -27,7 +27,7 @@ Back up your `GuildWars.ds` and replace it with this one.
     - Uncomment the line for your guild hall, and copy/paste a song to test there.
         - If the song already appears in `GuildWars.ds`, copy/paste it along with the volume shown.
         - If the song doesn't appear in `GuildWars.ds`, use `[600]` as a starting guess.
-    - Start GW, go to your guild hall, and see if the volume seems good. If not, exit GW, edit `GuildWars.ds` and try again. Repeat until you find a good volume.
+    - Start GW, go to your guild hall, and see if the volume seems good. If not, exit GW, edit `GuildWars.ds`, and try again. Repeat until you find a good volume.
     - (600-700 seems to be a sane range. Be suspicious of anything outside that.)
     - Open a github issue reporting your results.
 2. **Research:** Help elucidate the vanilla and DirectSong behavior.
@@ -36,5 +36,10 @@ Back up your `GuildWars.ds` and replace it with this one.
      - Pick a zone/area that doesn't have complete research in [observations.md](https://github.com/ChthonVII/gwdirectsongremix/blob/main/observations.md).
      - To determine which tokens are used for a given zone, visit that zone and take notes as the robot voice announces the tokens. Stick around awhile to make sure you don't miss any.
      - To determine the vanilla soundtrack, edit `GuildWars.ds` to replace one robot voice track with `*` and see what plays in its place. Visit multiple areas to make sure to catch inconsistent use of tokens, like `outrura`. Let the song play all the way through and loop in case it's actually a playlist rather than a single song.
+     - Open a github issue reporting your results. Or make a pull request editing [observations.md](https://github.com/ChthonVII/gwdirectsongremix/blob/main/observations.md).
+     - Some areas where help would really be appreciated:
+         - Pre-Searing. I don't have a perma pre character. If you do, please help with the research.
+         - PvP zones. A lot of PvP arenas have no activity and will require coordinated syncing by multiple people to gather data.
+         - Explorables with no town access. Hiking out to zones like Dreadnaught's Drift to be totally *sure* it doesn't have a custom soundtrack is time consuming.
 3. **Final Testing**: Did it work?
      - Pick a zone that's supposed to be complete and see if the changes are working in-game as expected.
