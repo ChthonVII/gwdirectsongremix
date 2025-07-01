@@ -121,6 +121,7 @@ Following token stream, always:
           -  `ruraada` = "Shing Jea Monastery"
           -  `ruraadb` = "Harvest Festival"
           -  `ruraadc` = "Age of the Dragon"
+- Rollerbeetle Racing does not send any known tokens. The lobby alternates "Assassin's Theme" and "Ritualist's Theme." The race plays "Assassin's Theme" or "Ritualist's Theme" until the starting gun, then switches to a PvP/battle playlist. Probably best not to mess with this at all.
 - I believe this is sufficient information to make all corrections for Shing Jea Island.
 
 ## Kaineng City 
