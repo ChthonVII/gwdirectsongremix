@@ -47,7 +47,9 @@ Following token stream, always:
 - All exporables and missions
     - Token stream is random picks from `scorada` and `scoradb`.
     - Somewhat surprisingly, no generic adventuring tracks mixed in.
-    - TODO: what is vanilla music?
+    - No-DirectSong/`*` behavior is:
+        - `scorada` = "The Charr"
+        - `scoradb` = "The Great Northern Wall"
 
 ## Shiverpeaks (Northern and Southern)
 - Granite Citadel
@@ -71,11 +73,14 @@ Following token stream, always:
 - Tasca's Demise:
     - Small area outside Granite Citadel (extends about as far as the close edge of the closest big rock)
         - Token stream is `outpost` over and over
-        - TODO: check vanilla behavior. Assuming same as Granite Citadel.
+        - No-DirectSong/`*` behavior is the same as Granite Citadel
     - Rest of zone is same as other snow zones.
 - Grenth's Footprint
     - Token stream is random picks from `snowsaa`, `snowsab`, and `snowsac`
-    - TODO: check vanilla behavior
+    - No-DirectSong/`*` behavior:
+        - `snowsaa` = "Droknar's Forge"
+        - `snowsab` = "Ascension Song"
+        - `snowsac` = "Tasca's Demise"
 - All other explorables/missions
     - Token stream is random picks from `snowada` and `crysada`
     - No-DirectSong/`*` behavior:
