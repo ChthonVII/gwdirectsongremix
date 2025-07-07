@@ -65,7 +65,7 @@ Following token stream, always:
         - Not sure if Granite Citadel and Deldrimor War Camp interact via shared playlist. 
 - All other outposts:
     - Token stream is random picks from `outsnwc`, `outsnwd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
-    - No-DirectSong/`*` behavior is:
+    - No-DirectSong/`*` behavior:
         - `outsnwc` = "Droknar's Forge"
         - `outsnwd` = "Tasca's Demise"
         - `outpose` = "Guilds at War" (Needs more testing that this track is the same across all areas. So far tested Ascalon, Northern Shiverpeaks, and Kryta.)
@@ -88,7 +88,12 @@ Following token stream, always:
         - `crysada` = "Ascension Song" (both in Shiverpeaks and Desert)
         - Having `crysada` play in the mountains is correct insofar as the corresponding non-DS track does play there. The problem is that DirectSong makes it into a multi-song playlist tha tnow has to fit both locations.
     - TODO: check Dreadnought's Drift
--TODO: Sorrow's Furnace
+- Sorrow's Furnace
+    - Token stream is `snowdaa`, `snowdab`, `snowdac`
+    - No-DirectSong/`*` behavior:
+        - `snowdaa` = "Cynn's Theme"
+        - `snowdab` = "Devona's Theme"
+        - `snowdac` = [Untitled track missing from soundtrack CD](https://www.youtube.com/watch?v=U6R2xuOTCoE&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=3) (does not seem to play anywhere else)
 
 ## Kryta
 - Lion's Arch
@@ -183,7 +188,7 @@ Following token stream, always:
      - Includes Unwaking Waters mission and explorable
      - token stream: random picks from `seabada`, `seabadb` and `seabadc`
      - didn't test Jade Quarry for lack of players
-- Todo: Test Deep
+- Todo: Test Deep -- Deep outpost not using known tokens. Testing will take awhile... ugg...
 - Todo: Test which L tockens really control what in Unwaking Waters
 - No-DirectSong/`*` behavior:
      - `outseaa` = "Coastline"
