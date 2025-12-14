@@ -68,7 +68,7 @@ Following token stream, always:
     - No-DirectSong/`*` behavior:
         - `outsnwc` = "Droknar's Forge"
         - `outsnwd` = "Tasca's Demise"
-        - `outpose` = "Guilds at War" (Needs more testing that this track is the same across all areas. So far tested Ascalon, Northern Shiverpeaks, and Kryta.)
+        - `outpose` = "Guilds at War"
         - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).  (Needs more testing that this track is the same across all areas. So far tested Ascalon and Shiverpeaks.)
 - Tasca's Demise:
     - Small area outside Granite Citadel (extends about as far as the close edge of the closest big rock)
@@ -94,26 +94,55 @@ Following token stream, always:
         - `snowdaa` = "Cynn's Theme"
         - `snowdab` = "Devona's Theme"
         - `snowdac` = [Untitled track missing from soundtrack CD](https://www.youtube.com/watch?v=U6R2xuOTCoE&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=3) (does not seem to play anywhere else)
+    - TODO: check boss music 
 
 ## Kryta
 - Lion's Arch
      - Token stream:
-          - The first token is always `villaga`.
+          - The first token is always `villaga`, and always cuts off after a few seconds.
           - After that, random picks from `outcosc`, `outcosd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
-- All other outposts (tested so far)
+- Lion's Arch Keep
+    - Token stream: just `villaga`.
+- All other outposts
     - Token stream is random picks from `outcosc`, `outcosd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
-    - TODO: test all towns
-- TODO: explorables misisons
-- Explorables quick check: `coasada` and `geneadc`
-    - TODO: check throroughly
+    - (No special music for ToA.)
+- Explorables/Mission
+    - Token stream is `coasada` and `geneadc`
     - If `geneadc` isn't used elsewhere, it's essentially Kryta adventure B track
+    - Majesty's Rest uses Kryta music.
+    - (No special music for Ascalon Settlement.)
+    - TODO: Check Kessex Peak
+- No-DirectSong/`*` behavior is:
+    - `villaga` = "Ashford Abbey"
+    - `outcosc` = "Sands of Kryta"
+    - `outcosd` = "Temple of Tolerance"
+    - `outpose` = "Guilds at War"
+    - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    - `coasada` = "Temple of Tolerance"
+    - `geneadc` = "Guilds at War"
+
+## Magumma Jungle
+- All outposts
+    - Token stream is random picks from `outovrc`, `outovrd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+    - Vanilla music might be a mistake? `outovrc`, `outovrd` are duplicates of `outpose`, and `outposf`, while nothing is shared between outposts and adventuring.
+- All explorables/missions
+    - Token stream is `geneada` and `geneadb`
+- No-DirectSong/`*` behavior is:
+    - `outovrc` = "Guilds at War"
+    - `outovrd` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    - `outpose` = "Guilds at War"
+    - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    - `geneada` = "Hall of Heroes"
+    - `geneadb` = "The Rift"
+    
     
 ## Crystal Desert
 - Explorables quick check: `crysada` and `geneadd`
     - TODO: check throroughly
     - If `geneadd` isn't used elsewhere, it's essentially crsytal desert adventure B track
     - No-DirectSong/`*` behavior for `crysada` is "Ascension Song," both in Shiverpeaks and Desert
-        - So the vanilla track is used in both places. The problem is addition of desert stuff to it. 
+        - So the vanilla track is used in both places. The problem is addition of desert stuff to it.
+- Tombs has a special area around the portal that plays "Devona's Theme" bypassing DirectSong.
     
 ## Shing Jea Island
 - Shing Jea Monestary/Seitung Harbor
@@ -202,4 +231,8 @@ Following token stream, always:
 ## Istan
 - Kamadan
      - Token stream: Random picks from `outdela`, `outdelb`, and `outdelc`.
+     
+## Core
+- Great Temple of Balthazar
+    - Token stream is `outposr`, `outposc` Huge weight for R. Maybe some other stuff. Hard to tell with so much R. 
 
