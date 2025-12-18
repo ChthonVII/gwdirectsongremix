@@ -86,7 +86,7 @@ Following token stream, always:
     - No-DirectSong/`*` behavior:
         - `snowada` = "Droknar's Forge"
         - `crysada` = "Ascension Song" (both in Shiverpeaks and Desert)
-        - Having `crysada` play in the mountains is correct insofar as the corresponding non-DS track does play there. The problem is that DirectSong makes it into a multi-song playlist tha tnow has to fit both locations.
+        - Having `crysada` play in the mountains is correct insofar as the corresponding non-DS track does play there. The problem is that DirectSong makes it into a multi-song playlist that now has to fit both locations.
     - TODO: check Dreadnought's Drift
 - Sorrow's Furnace
     - Token stream is `snowdaa`, `snowdab`, `snowdac`
@@ -113,13 +113,15 @@ Following token stream, always:
     - (No special music for Ascalon Settlement.)
     - TODO: Check Kessex Peak
 - No-DirectSong/`*` behavior is:
-    - `villaga` = "Ashford Abbey"
-    - `outcosc` = "Sands of Kryta"
-    - `outcosd` = "Temple of Tolerance"
-    - `outpose` = "Guilds at War"
-    - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
-    - `coasada` = "Temple of Tolerance"
-    - `geneadc` = "Guilds at War"
+    - Outposts
+        - `villaga` = "Ashford Abbey"
+        - `outcosc` = "Sands of Kryta"
+        - `outcosd` = "Temple of Tolerance"
+        - `outpose` = "Guilds at War"
+        - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    - Explorables/Missions
+        - `coasada` = "Temple of Tolerance"
+        - `geneadc` = "Guilds at War"
 
 ## Magumma Jungle
 - All outposts
@@ -128,21 +130,54 @@ Following token stream, always:
 - All explorables/missions
     - Token stream is `geneada` and `geneadb`
 - No-DirectSong/`*` behavior is:
-    - `outovrc` = "Guilds at War"
-    - `outovrd` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
-    - `outpose` = "Guilds at War"
-    - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
-    - `geneada` = "Hall of Heroes"
-    - `geneadb` = "The Rift"
+    - Outposts
+        - `outovrc` = "Guilds at War"
+        - `outovrd` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+        - `outpose` = "Guilds at War"
+        - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    Explorables/Missions
+        - `geneada` = "Hall of Heroes"
+        - `geneadb` = "The Rift"
     
     
 ## Crystal Desert
-- Explorables quick check: `crysada` and `geneadd`
-    - TODO: check throroughly
-    - If `geneadd` isn't used elsewhere, it's essentially crsytal desert adventure B track
-    - No-DirectSong/`*` behavior for `crysada` is "Ascension Song," both in Shiverpeaks and Desert
-        - So the vanilla track is used in both places. The problem is addition of desert stuff to it.
-- Tombs has a special area around the portal that plays "Devona's Theme" bypassing DirectSong.
+- All outposts
+    - Token stream is random picks from `outcryc`, `outcryd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+    - Tombs outpost has a special area around the portal that plays "Devona's Theme" bypassing DirectSong.
+    - At one point I had Elona Reach, Thirst River, and Destiny's Gorge playing `outposr` somehow, but I can't reproduce it :(
+- All explorables/missions
+    - Token stream is `crysada` and `geneadd`
+    - No-DirectSong/`*` behavior for `crysada` is "Ascension Song," both in Shiverpeaks and Desert. So the vanilla track is used in both places. The problem is that DirectSong makes it into a multi-song playlist that now has to fit both locations.
+- TODO: All 4 levels of Tombs :(
+- No-DirectSong/`*` behavior is:
+    - Outposts
+        - `outcryc` = "Ascension Song"
+        - `outcryd` = "Crystal Oasis"
+        - `outpose` = "Guilds at War"
+        - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    Explorables/Missions
+        - `crysada` = "Ascension Song"
+        - `geneadd` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    
+## Ring of Fire Islands
+- All outposts
+    - Token stream is random picks from `outvolc`, `outvold`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+- All explorables/missions
+    - Token stream is `volcada` and `volcadb`
+- No-DirectSong/`*` behavior is:
+    - Outposts
+        - `outvolc` = "Abbadon's Mouth" \[sic\]
+        - `outvold` = "The Door of Komalie"
+        - `outpose` = "Guilds at War"
+        - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    Explorables/Missions
+        - `volcada` = "Abbadon's Mouth" \[sic\]
+        - `volcadb` = "The Door of Komalie"
+        
+## Epilogue Dorknar's Forge
+    - Token stream is `riftgld` over and over.
+    - No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," ""Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6). Perhaps there are additional tracks that I missed.
+    - The vanilla picks are rather poor, and this is one instance I'm in favor of outright replacing them.
     
 ## Shing Jea Island
 - Shing Jea Monestary/Seitung Harbor
@@ -232,7 +267,33 @@ Following token stream, always:
 - Kamadan
      - Token stream: Random picks from `outdela`, `outdelb`, and `outdelc`.
      
-## Core
+## Battle Isles
 - Great Temple of Balthazar
-    - Token stream is `outposr`, `outposc` Huge weight for R. Maybe some other stuff. Hard to tell with so much R. 
-
+    - Token stream: Random picks from `outposr`, `outposc`. Huge weight for R. Maybe some other stuff. Hard to tell with so much R. 
+    - No-DirectSong/`*` behavior:
+        - `outposr` = Random picks from "Hall of Heroes" and "The Rift." TODO: check for more.
+        - `outposc` = TODO 
+- Embark Beach
+    - Token stream: Random picks from `enamsca`, `enamscb`, `enamsci`.
+    - No-DirectSong/`*` behavior: TODO
+- Zaishen Menagerie Outpost
+    - Token stream is always `outrura` over and over.
+    - TODO: Bet this is same as Monestary
+- Zaishen Menagerie Grounds
+     - Token stream is random picks from `ruraada`, `ruraadb` and `ruraadc`.
+     - No-DirectSong/`*` behavior: TODO
+- Codex Arena Outpost
+    - Token stream is random picks from `outlowa`, `outlowb`, `outlowc`
+    - No-DirectSong/`*` behavior: TODO
+- RA outpost
+    - Token Stream `outposr`. (Might be like GToB with other stuff mixed in rarely.)
+    - No-DirectSong/`*` behavior:
+        - `outposr` = Random picks from "Hall of Heroes" and "The Rift." TODO: check for more.
+- HA outpost
+    - No music?!
+- Zaishen Challenge outpost
+    - No music?!
+- Zaishen Elite outpost
+    - Token Stream `outposr`. (Might be like GToB with other stuff mixed in rarely.)
+    -- No-DirectSong/`*` behavior:
+        - `outposr` = Random picks from "Hall of Heroes" and "The Rift." TODO: check for more.
