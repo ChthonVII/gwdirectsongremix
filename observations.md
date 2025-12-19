@@ -174,10 +174,10 @@ Following token stream, always:
         - `volcada` = "Abbadon's Mouth" \[sic\]
         - `volcadb` = "The Door of Komalie"
         
-## Epilogue Dorknar\'s Forge
-    - Token stream is `riftgld` over and over.
-    - No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," ""Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6). Perhaps there are additional tracks that I missed.
-    - The vanilla picks are rather poor, and this is one instance I'm in favor of outright replacing them.
+## Epilogue Droknar\'s Forge
+- Token stream is `riftgld` over and over.
+- No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," "Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6). Perhaps there are additional tracks that I missed.
+- The vanilla picks are rather poor, and this is one instance I'm in favor of outright replacing them.
     
 ## Shing Jea Island
 - Shing Jea Monestary/Seitung Harbor
