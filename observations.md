@@ -43,7 +43,7 @@ Following token stream, always:
           - `outscrc`= "The Charr"
           - `outscrd` = "The Great Northern Wall"
           - `outpose` = "Guilds at War" (Needs more testing that this track is the same across all areas. So far tested Ascalon, Northern Shiverpeaks, and Kryta.)
-          - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).  (Needs more testing that this track is the same across all areas. So far tested Ascalon and Shiverpeaks.)
+          - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
 - All exporables and missions
     - Token stream is random picks from `scorada` and `scoradb`.
     - Somewhat surprisingly, no generic adventuring tracks mixed in.
@@ -135,7 +135,7 @@ Following token stream, always:
         - `outovrd` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
         - `outpose` = "Guilds at War"
         - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
-    Explorables/Missions
+    - Explorables/Missions
         - `geneada` = "Hall of Heroes"
         - `geneadb` = "The Rift"
     
@@ -155,7 +155,7 @@ Following token stream, always:
         - `outcryd` = "Crystal Oasis"
         - `outpose` = "Guilds at War"
         - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
-    Explorables/Missions
+    - Explorables/Missions
         - `crysada` = "Ascension Song"
         - `geneadd` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
     
@@ -170,11 +170,11 @@ Following token stream, always:
         - `outvold` = "The Door of Komalie"
         - `outpose` = "Guilds at War"
         - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
-    Explorables/Missions
+    - Explorables/Missions
         - `volcada` = "Abbadon's Mouth" \[sic\]
         - `volcadb` = "The Door of Komalie"
         
-## Epilogue Dorknar's Forge
+## Epilogue Dorknar\'s Forge
     - Token stream is `riftgld` over and over.
     - No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," ""Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6). Perhaps there are additional tracks that I missed.
     - The vanilla picks are rather poor, and this is one instance I'm in favor of outright replacing them.
