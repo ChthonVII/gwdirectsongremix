@@ -36,6 +36,22 @@ Following token stream, always:
 - `loginze`
 - (loop back to `loginen`)
 
+## Pre-Searing Ascalon
+- All outposts
+    - TODO: Check all outposts
+    - Token stream is random picks from `outednc`, `outednd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+    - Barradin Estate and Ashford Abbey have special music in default GuildWars.ds via L tokens.
+- Catacombs
+    - Token stream is `crysada` and `geneadd`
+    - Same as Desert.
+    - `crysada` is shared with both Desert and Shiverpeaks.
+- All other explorables
+    - TODO: Check all explorables
+    - Token stream is `edenada` and `edenadb`
+    - Green Hills Country and Wizard's Folly have special music in default GuildWars.ds via L tokens.
+- TODO: Finish pre-searing.
+- TODO: match tracks to tokens
+
 ## Post-Searing Ascalon
 - All outposts
      - Token stream is random picks from `outscrc`, `outscrd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
@@ -86,7 +102,7 @@ Following token stream, always:
     - No-DirectSong/`*` behavior:
         - `snowada` = "Droknar's Forge"
         - `crysada` = "Ascension Song" (both in Shiverpeaks and Desert)
-        - Having `crysada` play in the mountains is correct insofar as the corresponding non-DS track does play there. The problem is that DirectSong makes it into a multi-song playlist that now has to fit both locations.
+        - Having `crysada` play in the mountains is correct insofar as the corresponding non-DS track does play there. The problem is that DirectSong makes it into a multi-song playlist that now has to fit both locations (and Catacombs).
     - TODO: check Dreadnought's Drift
 - Sorrow's Furnace
     - Token stream is `snowdaa`, `snowdab`, `snowdac`
@@ -101,15 +117,18 @@ Following token stream, always:
      - Token stream:
           - The first token is always `villaga`, and always cuts off after a few seconds.
           - After that, random picks from `outcosc`, `outcosd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+          - Has special music in default GuildWars.ds via L token.
 - Lion's Arch Keep
     - Token stream: just `villaga`.
 - All other outposts
     - Token stream is random picks from `outcosc`, `outcosd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
+    - Divinity Coast has special music in default GuildWars.ds via L tokens.
     - (No special music for ToA.)
 - Explorables/Mission
     - Token stream is `coasada` and `geneadc`
     - If `geneadc` isn't used elsewhere, it's essentially Kryta adventure B track
     - Majesty's Rest uses Kryta music.
+    - Divinity Coast has special music in default GuildWars.ds via L tokens.
     - (No special music for Ascalon Settlement.)
     - TODO: Check Kessex Peak
 - No-DirectSong/`*` behavior is:
@@ -147,7 +166,8 @@ Following token stream, always:
     - At one point I had Elona Reach, Thirst River, and Destiny's Gorge playing `outposr` somehow, but I can't reproduce it :(
 - All explorables/missions
     - Token stream is `crysada` and `geneadd`
-    - No-DirectSong/`*` behavior for `crysada` is "Ascension Song," both in Shiverpeaks and Desert. So the vanilla track is used in both places. The problem is that DirectSong makes it into a multi-song playlist that now has to fit both locations.
+    - No-DirectSong/`*` behavior for `crysada` is "Ascension Song," both in Shiverpeaks and Desert (and Catacombs). So the vanilla track is used in both places. The problem is that DirectSong makes it into a multi-song playlist that now has to fit both locations (and Catacombs).
+    - Same as Catacombs in pre-searing.
 - TODO: All 4 levels of Tombs :(
 - No-DirectSong/`*` behavior is:
     - Outposts
