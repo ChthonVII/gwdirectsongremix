@@ -7,6 +7,7 @@ Here is how control flow seems to work, based on the (sparse) documentation and 
      - Tokens are probably usually `L***` for the specific zone, `out****` or `****ad*` for outpost or adventuring, and some kind of ambient fallback.
      - The documentation isn't super clear. It's possible it meant "three tokens plus the `L***` token," so maybe there's another token with intermediate generality between outpost/adventuring and ambient. (Prophecies has some token names that suggest this. But they might also just be deprecated cruft. To be revisited.) 
      - The token sent does not always correlate with the song Gw.exe is about to play. For instance, in most cases `outrura` means "I'm about to play the song 'Shing Jea Monastery'," but in a couple cases, it does not.
+     - Problem: L token is still sent for landmarks with special triggers. So the L token will override the special trigger unless it's moved above the L token in GuildWars.ds. Which is not always a feasible solution.
 2. ds_GuildWars.dll scans each line of GuildWars.ds for a match for any token.
      - The first matching line is picked. So the order of lines in GuildWars.ds matters.
      - If no matching line is found, ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play.
@@ -37,8 +38,7 @@ Following token stream, always:
 - (loop back to `loginen`)
 
 ## Pre-Searing Ascalon
-- All outposts
-    - TODO: Check all outposts
+- All outposts (including new Piken Sq.)
     - Token stream is random picks from `outednc`, `outednd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
     - Barradin Estate and Ashford Abbey have special music in default GuildWars.ds via L tokens.
 - Catacombs
@@ -46,11 +46,39 @@ Following token stream, always:
     - Same as Desert.
     - `crysada` is shared with both Desert and Shiverpeaks.
 - All other explorables
-    - TODO: Check all explorables
     - Token stream is `edenada` and `edenadb`
     - Green Hills Country and Wizard's Folly have special music in default GuildWars.ds via L tokens.
+    - The small pool in a cave in south Green Hills Country plays `ambient`.
+        - If you exit and reenter the cave, it will not rotate songs unless the current song already played and finished once.
+        - If an L token is set for this zone (which it is in the default GuildWars.ds), then:
+            - Entering the cave still cuts off the current track and plays a new one.
+            - But tracks are taken from the L token's list instead of `ambient`.
+        - The original intent here is a puzzle.
+            - Without DirectSong, it picks from the same two tracks that ordinarily play, so the only effect is to stop and restart the music, switching tracks half the time.
+            - With DirectSong and the default GuildWars.ds, due to the L token overriding the special trigger, the result is nearly the same: It picks from the same two tracks that would ordinarily play, so the only effect is to stop and restart the music, switching tracks every time.
+            - This feels underwhelming. You'd expect different, special music here. But all you get is a stop and start again with one of the same tracks you've heard for the whole zone.
+            - Maybe the point is not the music but rather the silence between tracks coinciding with entering the cave. (Though this is rather undermined by having an aggressive foe positioned at the cave enterance, likely covering over the silence with a fight in many cases.)
+        - Options for what to do here:
+            - Keep the L token. The case will have a "stop, start and switch tracks" behavior, but use the same tracks as the rest of the zone.
+            - Remove the L token (and probably mix these two tracks into the general pre-searing playlists). The case will have a "stop, start and switch tracks" behavior, picking tracks from a different list in GuildWars.ds than the rest of the zone. However, `ambient` is used elsewhere (login screen, possibly other places), so we probably don't want to alter it too much. Which would realistically leave us with the tracks for the cave being a subset of the tracks for the zone.
+            - Moving `ambient` above `L160` in GuildWars.ds is probably not workable. I'd expect priority problems here and possibly elsewhere. 
 - TODO: Finish pre-searing.
 - TODO: match tracks to tokens
+- No-DirectSong/`*` behavior is:
+    - Outposts
+        - `outednc` = "Eye of the Storm"
+        - `outednd` = "Gwen's Theme"
+        - `outpose` = "Guilds at War"
+        - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    - Explorables/Missions
+        - `edenada` = "Eye of the Storm"
+        - `edenadb` = "Gwen's Theme"
+        - `crysada` = "Ascension Song"
+        - `geneadd` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+- All exporables and missions
+        - `ambient` = Randomly plays "Eye of the Storm" or "Gwen's Theme." See above for more details.
+
+        
 
 ## Post-Searing Ascalon
 - All outposts
@@ -101,7 +129,7 @@ Following token stream, always:
     - Token stream is random picks from `snowada` and `crysada`
     - No-DirectSong/`*` behavior:
         - `snowada` = "Droknar's Forge"
-        - `crysada` = "Ascension Song" (both in Shiverpeaks and Desert)
+        - `crysada` = "Ascension Song" (both in Shiverpeaks and Desert and Catacombs)
         - Having `crysada` play in the mountains is correct insofar as the corresponding non-DS track does play there. The problem is that DirectSong makes it into a multi-song playlist that now has to fit both locations (and Catacombs).
     - TODO: check Dreadnought's Drift
 - Sorrow's Furnace
