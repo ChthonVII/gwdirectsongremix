@@ -196,7 +196,9 @@ Following token stream, always:
     - Token stream is `crysada` and `geneadd`
     - No-DirectSong/`*` behavior for `crysada` is "Ascension Song," both in Shiverpeaks and Desert (and Catacombs). So the vanilla track is used in both places. The problem is that DirectSong makes it into a multi-song playlist that now has to fit both locations (and Catacombs).
     - Same as Catacombs in pre-searing.
-- TODO: All 4 levels of Tombs :(
+- Tombs
+    - Token stream is `riftgld` over and over. (All 4 levels.)
+    - TODO: Vanilla tracks
 - No-DirectSong/`*` behavior is:
     - Outposts
         - `outcryc` = "Ascension Song"
@@ -326,7 +328,7 @@ Following token stream, always:
     - No-DirectSong/`*` behavior: TODO
 - Zaishen Menagerie Outpost
     - Token stream is always `outrura` over and over.
-    - TODO: Bet this is same as Monestary
+    - No-DirectSong/`*` behavior is random picks from "Assassin's Theme" and "Ritualist's Theme." (Almost, but not quite the as Monestary)
 - Zaishen Menagerie Grounds
      - Token stream is random picks from `ruraada`, `ruraadb` and `ruraadc`.
      - No-DirectSong/`*` behavior: TODO
