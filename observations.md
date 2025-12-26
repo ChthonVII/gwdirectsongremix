@@ -198,7 +198,7 @@ Following token stream, always:
     - Same as Catacombs in pre-searing.
 - Tombs
     - Token stream is `riftgld` over and over. (All 4 levels.)
-    - TODO: Vanilla tracks
+    - No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," "Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6). (This presents a small problem, as we cannot get just the untitled song alone via `*`. We will need to extract it from gw.dat and find the correct volume to play it.)
 - No-DirectSong/`*` behavior is:
     - Outposts
         - `outcryc` = "Ascension Song"
@@ -226,7 +226,7 @@ Following token stream, always:
         
 ## Epilogue Droknar\'s Forge
 - Token stream is `riftgld` over and over.
-- No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," "Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6). Perhaps there are additional tracks that I missed.
+- No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," "Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
 - The vanilla picks are rather poor, and this is one instance I'm in favor of outright replacing them.
     
 ## Shing Jea Island
