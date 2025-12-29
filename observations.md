@@ -158,7 +158,7 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
         - `coasada` = "Temple of Tolerance"
         - `geneadc` = "Guilds at War"
 
-## Magumma Jungle
+## Maguuma Jungle
 - All outposts
     - Token stream is random picks from `outovrc`, `outovrd`, `outpose`, and `outposf`, seemingly with a higher weight for the first two.
     - Vanilla music might be a mistake? `outovrc`, `outovrd` are duplicates of `outpose`, and `outposf`, while nothing is shared between outposts and adventuring.
