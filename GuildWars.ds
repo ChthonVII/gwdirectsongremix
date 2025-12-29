@@ -164,63 +164,78 @@ L222:Guild Wars Factions Original Soundtrack/15_The_Eternal_Grove.mp3[600],Guild
 # Adventuring Outposts
 ## ---
 #
+# Krtyan outposts
 outcosc:Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/30_The_Elementalist(Bonus).wma[1600]
 outcosd:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200]
 #
 ## ---
 #
+# Crystal Desert outposts
 outcryc:Guild Wars Special Edition Soundtrack/07a_Divinity_Coast(Bonus_v3).wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
 outcryd:Guild Wars Special Edition Soundtrack/30_The_Elementalist(Bonus).wma[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
 #
 ## ---
 #
+# Pre-Searing outposts
 outednc:Guild Wars Special Edition Soundtrack/05_Eye_of_the_Storm.mp3[1200],Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
 outednd:Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/29_First_Light(Bonus).wma[1200],Guild Wars Special Edition Soundtrack/17_Aidan's_Theme.mp3[1200]
 #
 ## ---
 #
+# Maguuma Jungle outposts
 outovrc:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1600]
 outovrd:Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[1200],Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200]
 #
 ## ---
 #
+# Ascalon outposts (post-searing)
 outscrc:Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[1200],Guild Wars Special Edition Soundtrack/30_The_Elementalist(Bonus).wma[1600]
 outscrd:Guild Wars Battle Pak One/06_Riverside_Province.wma[1200],Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200]
 #
 ## ---
 #
+# Shiverpeaks outposts (north & south)
 outsnwc:Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],Guild Wars Special Edition Soundtrack/04_Over_the_Shiverpeaks.mp3[1200]
 outsnwd:Guild Wars Special Edition Soundtrack/14_Crystal_Oasis.mp3[1200],Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[1200]
 #
 ## ---
 #
+# Ring of Fire outposts
 outvolc:Guild Wars Special Edition Soundtrack/07_Sands_of_Kryta.mp3[1200],Guild Wars Special Edition Soundtrack/19_Hall_of_Heroes.mp3[1200]
 outvold:Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
 #
 ## ---
 #
+# outposc appears rarely in Great Temple of Balthazar outpost (likely also appears in RA and Zaishen Elite outposts, though not yet observed)
 outposc:Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
+# outposd not yet observed, might be dead token
 outposd:Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200]
 #
 ## ---
 #
+# outpose & outposf play rarely for all Prophecies outposts
 outpose:Guild Wars Special Edition Soundtrack/18_Guilds_At_War.mp3[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1600]
 outposf:*,Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
 #
 ## ---
 #
+# outposr plays in Great Temple of Balthazar, RA, and Zaishen Elite outposts
 outposr:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/19_Hall_of_Heroes.mp3[1200],Guild Wars Battle Pak One/02_Once_More_into_the_Breach.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+# outposs not yet observed, might be dead token
 outposs:Guild Wars Battle Pak One/13_Prisoners_of_War.wma[1200],Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+# outposx not yet observed, might be dead token
 outposx:Guild Wars Special Edition Soundtrack/24a_The_Great_Raid(Bonus_v3).wma[1400],Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/18_Guilds_At_War.mp3[1200],Guild Wars Battle Pak One/14_Bloodstone_Fen.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
 #
 ## ---
 #
+# outpost plays in Deldrimor War Camp, Granite Citadel, and a tiny bit of Tasca's Demise by the gate of Granite Citadel
 outpost:Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
 #
 ## ---
 # PvP Outposts
 ## ---
 #
+# These tokens not observed, might be dead tokens
 outglda:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/19_Hall_of_Heroes.mp3[1200],Guild Wars Battle Pak One/02_Once_More_into_the_Breach.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
 outgldb:Guild Wars Battle Pak One/13_Prisoners_of_War.wma[1200],Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
 outrfta:Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
@@ -230,16 +245,18 @@ outrftb:Guild Wars Special Edition Soundtrack/10_Devona's_Theme.mp3[1200],Guild 
 # PvP music
 ## ---
 #
+# riftgld appears in Tombs of Primeval Kings explorables and Prophecies Epilogue. Possibly other places.
 riftgld:Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
 riftina:Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/10_Devona's_Theme.mp3[1200],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1200],Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000]
 #
 ## ---
 # Sorrow's Furnace Mini-Pak
 ## ---
-#
+# snowsaa/b/c appear in Grenth's Footprint
 snowsaa:Sorrow's Furnace Mini-Pak/01_The_Foundry.mp3[400],Sorrow's Furnace Mini-Pak/02_Dark_Forge.mp3[800]
 snowsab:Sorrow's Furnace Mini-Pak/03_Grenth's_Footprint.mp3[800],Sorrow's Furnace Mini-Pak/04_Sorrow's_Furnace.mp3[800]
 snowsac:Sorrow's Furnace Mini-Pak/05_The_Latch.mp3[800],Sorrow's Furnace Mini-Pak/07_Stone_Summit.mp3[800]
+# snowdaa/b/c appear in Sorrow's Furnace
 snowdaa:Sorrow's Furnace Mini-Pak/01_The_Foundry.mp3[800],Sorrow's Furnace Mini-Pak/02_Dark_Forge.mp3[800],Sorrow's Furnace Mini-Pak/08_Strenuous_Trek.mp3[200]
 snowdab:Sorrow's Furnace Mini-Pak/03_Grenth's_Footprint.mp3[400],Sorrow's Furnace Mini-Pak/04_Sorrow's_Furnace.mp3[400]
 snowdac:Sorrow's Furnace Mini-Pak/05_The_Latch.mp3[800],Sorrow's Furnace Mini-Pak/07_Stone_Summit.mp3[800]
@@ -255,16 +272,18 @@ dungbsc:Sorrow's Furnace Mini-Pak/06_Sorrow's_Stand.mp3[600],Sorrow's Furnace Mi
 # Adventuring music
 ## ---
 #
+# Kryta explorables/missions (geneadc is the Kryta adventuring "b track")
 coasada:Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200],Guild Wars Battle Pak One/07_Converging_Descent.wma[1200],Guild Wars Special Edition Soundtrack/24_Temple_Of_Tolerance.mp3[1200],Guild Wars Special Edition Soundtrack/32_Beyond_the_Ocean(Bonus).wma[1200]
 #
 ## ---
 #
-# Contrary to its name, this token is emitted in three different places: Crystal Desert and Shiverpeaks (north and south) and Pre-Searing Catacombs explorables/missions
+# Contrary to its name, crysada token is emitted in three different places: Crystal Desert and Shiverpeaks (north and south) and Pre-Searing Catacombs explorables/missions
 # Be careful to select music fitting to all three.
 crysada:Guild Wars Special Edition Soundtrack/23_Ascension_Song.mp3[1200],Guild Wars Special Edition Soundtrack/30_The_Elementalist(Bonus).wma[1600]
 #
 ## ---
 #
+# Pre-Searing explorables
 edenada:Guild Wars Special Edition Soundtrack/05_Eye_of_the_Storm.mp3[1200],Guild Wars Special Edition Soundtrack/29_First_Light(Bonus).wma[1200],Guild Wars Special Edition Soundtrack/06_Prince_Rurik's_Theme.mp3[1200]
 edenadb:Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/02_Autumn_in_Ascalon.mp3[1400],Guild Wars Special Edition Soundtrack/17_Aidan's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
 #
@@ -274,28 +293,34 @@ edenadb:Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200],Guild Wa
 fountna:Guild Wars Special Edition Soundtrack/06_Prince_Rurik's_Theme.mp3[1200]
 #
 ## ---
-#
+# geneada/b used in Maguuma Jungle explorables/missions
 geneada:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/19_Hall_of_Heroes.mp3[1200],Guild Wars Battle Pak One/02_Once_More_into_the_Breach.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
 geneadb:Guild Wars Battle Pak One/13_Prisoners_of_War.wma[1200],Guild Wars Special Edition Soundtrack/20_The_Rift.mp3[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
+# geneadc used in Kryta explorables/missions
 geneadc:Guild Wars Special Edition Soundtrack/24a_The_Great_Raid(Bonus_v3).wma[1400],*,Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/18_Guilds_At_War.mp3[1200],Guild Wars Battle Pak One/14_Bloodstone_Fen.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200],Guild Wars Battle Pak One/03_Tomb_of_the_Primeval_Kings.wma[1200]
 # geneadd token is emitted in Crystal Desert and Pre-Searing Catacombs explorables/missions
 geneadd:*,Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
 #
 ## ---
 #
+# Ascalon explorables/missions (post-searing)
 scorada:Guild Wars Battle Pak One/07_Converging_Descent.wma[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Special Edition Soundtrack/26_The_Charr.mp3[1200],Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/21_Whitman's_Folly.mp3[1200],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
 scoradb:Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/27_The_Great_Northern_Wall.mp3[1200],Guild Wars Special Edition Soundtrack/11_Cynn's_Theme.mp3[1200],Guild Wars Battle Pak One/14_Bloodstone_Fen.wma[1200],Guild Wars Special Edition Soundtrack/21_Whitman's_Folly.mp3[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
 #
 ## ---
 #
+# Shiverpeaks explorables/missions (north & south) (crysada is also played here)
 snowada:Guild Wars Battle Pak One/10_A_Test_of_Strength.wma[1000],Guild Wars Special Edition Soundtrack/28_Droknar's_Forge.mp3[900],Guild Wars Battle Pak One/07_Converging_Descent.wma[1200],Guild Wars Special Edition Soundtrack/11_Cynn's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/21_Whitman's_Folly.mp3[1200],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
 #
 ## ---
 #
+# villaga plays for a few seconds when entering Lion's Arch. Also plays in Lion's Arch Keep.
+# Maybe used for non-oupost villages somewhere? (None found yet.)
 villaga:Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200],Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1200],Guild Wars Special Edition Soundtrack/17_Aidan's_Theme.mp3[1200]
 #
 ## ---
 #
+# Ring of Fire explorables/missions
 volcada:Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Battle Pak One/13_Prisoners_of_War.wma[1200],Guild Wars Special Edition Soundtrack/08_The_Door_of_Komalie.mp3[1200],Guild Wars Battle Pak One/09_Entanglements.wma[1000],Guild Wars Battle Pak One/07_Converging_Descent.wma[1200],Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3[1200],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200],Guild Wars Special Edition Soundtrack/22_Tasca's_Theme.mp3[1200],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200]
 volcadb:Guild Wars Battle Pak One/11_The_Line_in_the_Sand.wma[1000],Guild Wars Special Edition Soundtrack/13_Abaddon's_Mouth.mp3[1200],Guild Wars Battle Pak One/02_Once_More_into_the_Breach.wma[1200],Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3[1200],Guild Wars Battle Pak One/08_The_Dragon's_Lair.wma[1200],Guild Wars Special Edition Soundtrack/21_Whitman's_Folly.mp3[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1200]
 #
