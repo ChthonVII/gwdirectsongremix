@@ -28,14 +28,10 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
 
 
 ## Login Screen
-Following token stream, always:
-- `loginen`
-- `ambient` (prophecies ambient) 2x or 3x (seems random)
-- `loginzb`
-- `loginzc`
-- `loginzd`
-- `loginze`
-- (loop back to `loginen`)
+- Following token stream, always: `loginen`, `loginzf`, `loginzg`, `loginzh`, `loginzb`, `loginzc`, `loginzd`, `loginze`, loop back to start
+- The tokens `login` and `ambient` are emitted simultaneously with the `loginz*` tokens. Whichever appears highest in the GuildWars.ds file takes priority. It may be desirable to use one overall playlist for `login` rather than seven different playlists for the `loginz*` tokens.
+- The tokens `login`, `loginzf`, `loginzg`, and `loginzh` don't appear in the default GuildWars.ds and are not documented anywhere.
+- This is probably an error in the default GuildWars.ds. `ambient` was probably not meant to play three times on the login screen.
 
 ## Pre-Searing Ascalon
 - All outposts (including new Piken Sq.)
@@ -48,20 +44,14 @@ Following token stream, always:
 - All other explorables
     - Token stream is `edenada` and `edenadb`
     - Green Hills Country and Wizard's Folly have special music in default GuildWars.ds via L tokens.
-    - The small pool in a cave in south Green Hills Country plays `ambient`.
-        - If you exit and reenter the cave, it will not rotate songs unless the current song already played and finished once.
-        - If an L token is set for this zone (which it is in the default GuildWars.ds), then:
-            - Entering the cave still cuts off the current track and plays a new one.
-            - But tracks are taken from the L token's list instead of `ambient`.
-        - The original intent here is a puzzle.
-            - Without DirectSong, it picks from the same two tracks that ordinarily play, so the only effect is to stop and restart the music, switching tracks half the time.
-            - With DirectSong and the default GuildWars.ds, due to the L token overriding the special trigger, the result is nearly the same: It picks from the same two tracks that would ordinarily play, so the only effect is to stop and restart the music, switching tracks every time.
-            - This feels underwhelming. You'd expect different, special music here. But all you get is a stop and start again with one of the same tracks you've heard for the whole zone.
-            - Maybe the point is not the music but rather the silence between tracks coinciding with entering the cave. (Though this is rather undermined by having an aggressive foe positioned at the cave enterance, likely covering over the silence with a fight in many cases.)
-        - Options for what to do here:
-            - Keep the L token. The case will have a "stop, start and switch tracks" behavior, but use the same tracks as the rest of the zone.
-            - Remove the L token (and probably mix these two tracks into the general pre-searing playlists). The case will have a "stop, start and switch tracks" behavior, picking tracks from a different list in GuildWars.ds than the rest of the zone. However, `ambient` is used elsewhere (login screen, possibly other places), so we probably don't want to alter it too much. Which would realistically leave us with the tracks for the cave being a subset of the tracks for the zone.
-            - Moving `ambient` above `L160` in GuildWars.ds is probably not workable. I'd expect priority problems here and possibly elsewhere. 
+    - The small pool in a cave in south Green Hills Country plays `edencva` and `edencvb`.
+        - These tokens don't exist in the default GuildWars.ds file, but they are documented [here](https://wiki.guildwars.com/wiki/DirectSong/Tokens), sort of.
+        - Perhaps they existed in a very old version of GuildWars.ds. The oldest version I can find is from 12/17/2006, and does not have them.
+        - Because these tokens don't exist in the default GuildWars.ds, it falls back to `ambient`, which is emitted simultaneously.
+        - No-DirectSong/`*` behavior is:
+            - `edencva` = "Eye of the Storm"
+            - `edencvb` = "Gwen's Theme"
+        - Absent any documentation, I have no idea which songs were supposed to play here. For now I will make a guess.
 - TODO: Finish pre-searing.
 - TODO: match tracks to tokens
 - No-DirectSong/`*` behavior is:
@@ -75,8 +65,6 @@ Following token stream, always:
         - `edenadb` = "Gwen's Theme"
         - `crysada` = "Ascension Song"
         - `geneadd` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
-- All exporables and missions
-        - `ambient` = Randomly plays "Eye of the Storm" or "Gwen's Theme." See above for more details.
 
         
 
