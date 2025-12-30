@@ -86,6 +86,10 @@ loginze:Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1300],Guild W
 #loginzd:Guild Wars Special Edition Soundtrack/09_The_Moment_of_Truth.mp3[1400],Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1300],Guild Wars Special Edition Soundtrack/05_Eye_of_the_Storm.mp3[1100],Guild Wars Eye of the North Original Soundtrack/02_Overture_from_Eye_of_the_North.wma[450],Guild Wars Special Edition Soundtrack/18_Guilds_At_War.mp3[1200]
 #loginze:Guild Wars Battle Pak One/16_Rebirth.wma[1200],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Special Edition Soundtrack/24_Temple_of_Tolerance.mp3[1200],Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[900],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200]
 #
+# edencva/b are used for the small cave with a pool of water in Green Hills County
+# They must come above the L token for Green Hills County
+edencva:Guild Wars Special Edition Soundtrack/06_Prince_Rurik's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/02_Autumn_in_Ascalon.mp3[1400]
+edencvb:Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/14_Crystal_Oasis.mp3[1200]
 ## ---
 # Level specific mods
 ## ---
@@ -329,6 +333,7 @@ crysada:Guild Wars Special Edition Soundtrack/23_Ascension_Song.mp3[1200],Guild 
 # Pre-Searing explorables
 edenada:Guild Wars Special Edition Soundtrack/05_Eye_of_the_Storm.mp3[1200],Guild Wars Special Edition Soundtrack/29_First_Light(Bonus).wma[1200],Guild Wars Special Edition Soundtrack/06_Prince_Rurik's_Theme.mp3[1200]
 edenadb:Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/02_Autumn_in_Ascalon.mp3[1400],Guild Wars Special Edition Soundtrack/17_Aidan's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
+#
 #
 ## ---
 #
