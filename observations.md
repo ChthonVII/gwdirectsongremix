@@ -7,8 +7,7 @@ Here is how control flow seems to work, based on the (sparse) documentation and 
      - Tokens are probably usually `L***` for the specific zone, `out****` or `****ad*` for outpost or adventuring, and some kind of ambient fallback.
      - The documentation isn't super clear. It's possible it meant "three tokens plus the `L***` token," so maybe there's another token with intermediate generality between outpost/adventuring and ambient. (Prophecies has some token names that suggest this. But they might also just be deprecated cruft. To be revisited.) 
      - The token sent does not always correlate with the song Gw.exe is about to play. For instance, in most cases `outrura` means "I'm about to play the song 'Shing Jea Monastery'," but in a couple cases, it does not.
-     - Problem: L token is still sent for landmarks with special triggers. So the L token will override the special trigger unless it's moved above the L token in GuildWars.ds. Which is not always a feasible solution.
-2. ds_GuildWars.dll scans each line of GuildWars.ds for a match for any token.
+2. ds_GuildWars.dll scans each line of GuildWars.ds for a match for any of those tokens.
      - The first matching line is picked. So the order of lines in GuildWars.ds matters.
      - If no matching line is found, ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play.
 3. Assuming there was a match for the token, ds_GuildWars.dll picks an entry from the list.
@@ -31,7 +30,11 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
 - Following token stream, always: `loginen`, `loginzf`, `loginzg`, `loginzh`, `loginzb`, `loginzc`, `loginzd`, `loginze`, loop back to start
 - The tokens `login` and `ambient` are emitted simultaneously with the `loginz*` tokens. Whichever appears highest in the GuildWars.ds file takes priority. It may be desirable to use one overall playlist for `login` rather than seven different playlists for the `loginz*` tokens.
 - The tokens `login`, `loginzf`, `loginzg`, and `loginzh` don't appear in the default GuildWars.ds and are not documented anywhere.
-- This is probably an error in the default GuildWars.ds. `ambient` was probably not meant to play three times on the login screen.
+- The three tracks between `loginen` and `loginzb` were probably added in [the 2/15/2024 game update](https://wiki.guildwars.com/wiki/Feedback:Game_updates/20240215). This "broke" the default GuildWars.ds, causing it to fall back to `ambient` because it didn't have the new tokens. But no one noticed at the time because it's rare to sit on the login screen for longer than the first song. 
+- The original behavior is long gone. Here are my best guesses:
+    - Prophecies login screen was probably `loginza`, `loginzb`, `loginzc`, `loginzd`, `loginze`, loop back to start. DirectSong doubled five songs to ten by assigning two songs to each token.
+    - These three videos ([1](https://www.youtube.com/watch?v=SMPX8q3zaVs), [2](https://www.youtube.com/watch?v=E8FvrzXMwPo), [3](https://www.youtube.com/watch?v=7XJHqsH4Wuk)) suggest that subsequent chapters were the same five-song pattern, except with a different first song.
+    - Due to the addition of three tracks/tokens, we need to simulate a five-track cycle using an eight-track cycle. The least common multiple is 40, or five tracks per token. This works if the number of songs assigned to the chapter-specific token divides evenly into eight, or if we're willing to fudge it.
 
 ## Pre-Searing Ascalon
 - All outposts (including new Piken Sq.)
