@@ -349,7 +349,7 @@ geneadb:Guild Wars Battle Pak One/13_Prisoners_of_War.wma[1200],Guild Wars Speci
 # geneadc used in Kryta explorables/missions
 geneadc:Guild Wars Special Edition Soundtrack/24a_The_Great_Raid(Bonus_v3).wma[1400],*,Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/18_Guilds_At_War.mp3[1200],Guild Wars Battle Pak One/14_Bloodstone_Fen.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1200],Guild Wars Battle Pak One/03_Tomb_of_the_Primeval_Kings.wma[1200]
 # geneadd token is emitted in Crystal Desert and Pre-Searing Catacombs explorables/missions
-geneadd:*,Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
+geneadd:*,Guild Wars Special Edition Soundtrack/12_Eve's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/25_Althea's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
 #
 ## ---
 #
