@@ -129,7 +129,13 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
         - `snowdaa` = "Cynn's Theme"
         - `snowdab` = "Devona's Theme"
         - `snowdac` = [Untitled track missing from soundtrack CD](https://www.youtube.com/watch?v=U6R2xuOTCoE&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=3) (does not seem to play anywhere else)
-    - TODO: check boss music 
+- Sorrow's Furnace
+    - Token stream:
+        - Upon starting the battle `dungbsi` plays one time.
+        - After the cinematic where the elementals pop out, `dungbsi` plays again one time.
+        - The rest of the time is random picks from `dungbsa`, `dungbsb`, `dungbsc`, and bypassing DirectSong to play "Door of Komalie" or [Untitled track missing from soundtrack CD](https://www.youtube.com/watch?v=U6R2xuOTCoE&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=3).
+        - Playing music outside DirectSong like this is unexpected.
+    - TODO: find vanilla tracks
 
 ## Kryta
 - Lion's Arch
