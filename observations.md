@@ -135,7 +135,11 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
         - After the cinematic where the elementals pop out, `dungbsi` plays again one time.
         - The rest of the time is random picks from `dungbsa`, `dungbsb`, `dungbsc`, and bypassing DirectSong to play "Door of Komalie" or [Untitled track missing from soundtrack CD](https://www.youtube.com/watch?v=U6R2xuOTCoE&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=3).
         - Playing music outside DirectSong like this is unexpected.
-    - TODO: find vanilla tracks
+    - No-DirectSong/`*` behavior is:
+        - `dungbsi` = "Devona's Theme"
+        - `dungbsa` = "Cynn's Theme"
+        - `dungbsb` = "Devona's Theme"
+        - `dungbsc` = [Untitled track missing from soundtrack CD](https://www.youtube.com/watch?v=U6R2xuOTCoE&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=3) (Probably. Impossible to tell for sure because the same track is randomly played outside DirectSong in the same situation.)
 
 ## Kryta
 - Lion's Arch
@@ -154,6 +158,7 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
     - If `geneadc` isn't used elsewhere, it's essentially Kryta adventure B track
     - Majesty's Rest uses Kryta music.
     - Divinity Coast has special music in default GuildWars.ds via L tokens.
+    - Divinity Coast fountain does **not** use `fountna`. It plays "Droknar's Forge" outside of DirectSong. (It sounds like it used `fountna` at some point in the past.)
     - (No special music for Ascalon Settlement.)
     - TODO: Check Kessex Peak
 - No-DirectSong/`*` behavior is:
