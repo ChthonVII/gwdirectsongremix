@@ -42,3 +42,99 @@ rurick?
 
 outednc:Guild Wars Special Edition Soundtrack/05_Eye_of_the_Storm.mp3[1200],Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1200],Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200]
 outednd:Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/29_First_Light(Bonus).wma[1200],Guild Wars Special Edition Soundtrack/17_Aidan's_Theme.mp3[1200]
+
+-----
+
+
+the charr
+nothern wall
+
+maybe cynn
+maybe devona
+maybe eve
+
+guilds at war
+rebirth
+once more breach
+return to ascalon
+converging
+fort ranik
+rpisoners of war - surmia, maybe nolani
+
+scorada: 07_Converging_Descent.wma[1200], 09_Entanglements.wma[1000], 26_The_Charr.mp3[1200], 12_Eve's_Theme.mp3[1200], 21_Whitman's_Folly.mp3[1200], 01_Ice_Cave_Confrontation.wma[1200],16_Rebirth.wma[1200]
+scoradb: 15_Borlis_Pass.wma[1200],27_The_Great_Northern_Wall.mp3[1200], 11_Cynn's_Theme.mp3[1200],14_Bloodstone_Fen.wma[1200], 21_Whitman's_Folly.mp3[1200], 16_Rebirth.wma[1200]
+
+outscrc:Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[1200],Guild Wars Special Edition Soundtrack/30_The_Elementalist(Bonus).wma[1600]
+outscrd:Guild Wars Battle Pak One/06_Riverside_Province.wma[1200],Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200]
+
+
+outpost - charr, northern wall, breach, gwen, ranik
+c: charr, breach, charr, ranik
+d: wall, gwen
+
+explore - charr, northern wall, guilds at war, converging, rebirth, breach, eve, cynn, devona, ranik, return, rpisoners
+a: charr, converging, guilds, charr, breach, eve, charr, return
+b: wall, ranik, rebirth, wall, prionsers, cynn, wall, devona
+
+special - ranik, prisoners
+
+add althea to gendd
+
+------------
+
+outpost: "Tasca's Demise," "Over the Shiverpeaks," and "Droknar's Forge."
+
+`outsnwc` = "Droknar's Forge"
+`outsnwd` = "Tasca's Demise"
+
+- `snowada` = "Droknar's Forge"
+
+droks - both
+over the shiverpeaks - old this back so it's special?
+whitman - explor, maybe outpost
+tasca - both
+ice cave - advanetur only
+borlis pass - outpost only
+guilds/rebirth?
+
+genrths/sorrows 50/50 old/new
+need to test boss
+
+outposts: droks, whitman?, tasca, borlis
+
+adventuring: droks, tasca, whitman, ice cave, borlis, rebirth, over
+
+------------
+
+journey to LA - adventure
+sands - default, outpost only (maybe adventuring?)
+divinty coast - advenure or both, special
+tears of the fallen - adventure, special
+temple of tolernce default, both
+great raid - special
+riverside province - outpost + special (ugg)
+
+guilds/rebirth
+
+defaults are sands/temple and temple/guilds
+
+ugg = we want special music for riverside b/c great raid, so we hav eto include slow track or... uggg
+divinty coast needs research on that one spot
+
+outpost: sands, maybe divity, temple, riverside
+
+adventure: journey, divity, tears, temple, guilds, rebirth
+temple,journey,divinity
+guilds,tears,rebirth
+
+special: divinty maybe, temple+raid+riverside, tears
+
+village
+LA keep: ashford, riverside, rurick, journey, heart, firs tlight, autumn
+
+---------
+
+
+--------
+
+epilogue: theme, heart, sea, autmun
