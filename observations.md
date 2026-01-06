@@ -55,8 +55,6 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
             - `edencva` = "Eye of the Storm"
             - `edencvb` = "Gwen's Theme"
         - Absent any documentation, I have no idea which songs were supposed to play here. For now I will make a guess.
-- TODO: Finish pre-searing.
-- TODO: match tracks to tokens
 - No-DirectSong/`*` behavior is:
     - Outposts
         - `outednc` = "Eye of the Storm"
@@ -77,7 +75,7 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
      - No-DirectSong/`*` behavior is:
           - `outscrc`= "The Charr"
           - `outscrd` = "The Great Northern Wall"
-          - `outpose` = "Guilds at War" (Needs more testing that this track is the same across all areas. So far tested Ascalon, Northern Shiverpeaks, and Kryta.)
+          - `outpose` = "Guilds at War"
           - `outposf` = [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
 - All exporables and missions
     - Token stream is random picks from `scorada` and `scoradb`.
@@ -155,10 +153,10 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
     - (No special music for ToA.)
 - Explorables/Mission
     - Token stream is `coasada` and `geneadc`
-    - If `geneadc` isn't used elsewhere, it's essentially Kryta adventure B track
+    - `geneadc` isn't used elsewhere, so it's essentially Kryta adventure B track
     - Majesty's Rest uses Kryta music.
     - Divinity Coast has special music in default GuildWars.ds via L tokens.
-    - Divinity Coast fountain does **not** use `fountna`. It plays "Droknar's Forge" outside of DirectSong. (It sounds like it used `fountna` at some point in the past.)
+    - Divinity Coast fountain does **not** use `fountna`. It plays "Droknar's Forge" outside of DirectSong. (According to [forum post](https://www.reddit.com/r/GuildWars/comments/8nbxmv/comment/dzvnvum/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button), it used `fountna` at some point in the past.)
     - (No special music for Ascalon Settlement.)
     - TODO: Check Kessex Peak
 - No-DirectSong/`*` behavior is:
