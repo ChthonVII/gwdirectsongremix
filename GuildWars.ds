@@ -87,7 +87,7 @@ loginze:Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1300],Guild W
 #loginze:Guild Wars Battle Pak One/16_Rebirth.wma[1200],Guild Wars Battle Pak One/04_Return_to_Ascalon.wma[1200],Guild Wars Special Edition Soundtrack/24_Temple_of_Tolerance.mp3[1200],Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[900],Guild Wars Battle Pak One/01_Ice_Cave_Confrontation.wma[1200]
 #
 ## ---
-# Level specific mods
+# Level specific mods (inherited from default GuildWars.ds)
 ## ---
 #
 # Divinity Coast
@@ -148,6 +148,8 @@ L53:Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[
 L73:Guild Wars Special Edition Soundtrack/24_Temple_of_Tolerance.mp3[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200],Guild Wars Special Edition Soundtrack/24a_The_Great_Raid(Bonus_v3).wma[1400],Guild Wars Special Edition Soundtrack/18_Guilds_At_War.mp3[1200]
 # Lion's Arch Keep in-town explorable
 L840:Guild Wars Special Edition Soundtrack/16_Ashford_Abbey.mp3[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200],Guild Wars Special Edition Soundtrack/06_Prince_Rurik's_Theme.mp3[1200],Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Special Edition Soundtrack/29_First_Light(Bonus).wma[1200],Guild Wars Special Edition Soundtrack/02_Autumn_in_Ascalon.mp3[1400]
+# Temple of Ages outpost
+L138:Guild Wars Special Edition Soundtrack/03_Mhenlo's_Theme.mp3[1200],Guild Wars Battle Pak One/06_Riverside_Province.wma[1200]
 #
 ## ---
 #
