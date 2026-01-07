@@ -134,6 +134,31 @@ LA keep: ashford, riverside, rurick, journey, heart, firs tlight, autumn
 
 ---------
 
+vanilla outposts: Guilds, Catacombs
+
+vanilla adventure: Halls, Rift
+
+silverwood - both, special (very slow, but we're short of tracks)
+bloodstone fen - adventure only
+09_Entanglements - adventure only
+a test of strength - adventure maybe
+line in the sand - adventure maybe -> not even in default, so no
+09_Entanglements, test of strengh, and line in the sand are all crappy drum tracks
+rebirth
+warrior's heart
+guilds
+
+outposts
+guilds, rebirth
+silverwood, catacombs
+
+explore
+halls, fen, rebirth, entabglements
+rift, silverwood, guilds, test,
+
+special silverwood
+special bloodstone fen
+special falls outpost
 
 --------
 
