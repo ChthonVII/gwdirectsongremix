@@ -250,8 +250,8 @@ outednd:Guild Wars Special Edition Soundtrack/15_Gwen's_Theme.mp3[1200],Guild Wa
 ## ---
 #
 # Maguuma Jungle outposts. Vanilla music: outovrc="Guilds at War", outovrd=untitled track (Catacombs)
-outovrc:Guild Wars Special Edition Soundtrack/03a_Journey_to_Lion's_Arch(Bonus_v3).wma[1200],Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200],Guild Wars Special Edition Soundtrack/31_A_Warrior's_Heart(Bonus).wma[1400],Guild Wars Battle Pak One/16_Rebirth.wma[1600]
-outovrd:Guild Wars Special Edition Soundtrack/11a_Tears_of_the_Fallen(Bonus_v3).wma[1200],Guild Wars Battle Pak One/15_Borlis_Pass.wma[1200]
+outovrc:Guild Wars Special Edition Soundtrack/18_Guilds_At_War.mp3[1200],Guild Wars Battle Pak One/16_Rebirth.wma[1600]
+outovrd:Guild Wars Battle Pak One/05_Arrival_in_Silverwood.wma[1200],*
 #
 ## ---
 #
