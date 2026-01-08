@@ -18,10 +18,11 @@ Fix the rather numerous shortcomings of the default GuildWars.ds.
 
 ## Status:
 - Login Screen: **Done**
-- Prophecies: Pre-searing done, research >95% complete.
+- Prophecies: **Done**
 - Factions: **Done**
 - Nightfall: Not started
 - EotN: Not started
+- Underworld & Fissure of Woe: **Done**
 - Battle Isles outposts: Research >50% complete.
 - PvP: Not started. Won't be attempted without help.
 
