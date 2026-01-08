@@ -316,6 +316,16 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
 ## Istan
 - Kamadan
      - Token stream: Random picks from `outdela`, `outdelb`, and `outdelc`.
+
+## Fissure of Woe
+- Token stream is `volcada` and `volcadb`
+- No-DirectSong/`*` behavior is:
+    - `volcada` = "Abbadon's Mouth" \[sic\]
+    - `volcadb` = "The Door of Komalie"
+    
+## Underworld
+- Token stream is `riftgld` over and over.
+- No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," "Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6). (This presents a small problem, as we cannot get just the untitled song alone via `*`. We will need to extract it from gw.dat and find the correct volume to play it.)
      
 ## Battle Isles
 - Great Temple of Balthazar
