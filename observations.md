@@ -311,8 +311,7 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
      - `seabada` = "Coastline"
      - `seabadb` = "Jade Sea"
      - `seabadc` = "Luxon Theme"
-     
-
+    
 ## Istan
 - Kamadan
      - Token stream: Random picks from `outdela`, `outdelb`, and `outdelc`.
@@ -328,32 +327,47 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
 - No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," "Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6). (This presents a small problem, as we cannot get just the untitled song alone via `*`. We will need to extract it from gw.dat and find the correct volume to play it.)
      
 ## Battle Isles
-- Great Temple of Balthazar
-    - Token stream: Random picks from `outposr`, `outposc`. Huge weight for R. Maybe some other stuff. Hard to tell with so much R. 
+- Great Temple of Balthazar, Random Arena outpost, and Zaishen Elite outpost
+    - Token stream: Random picks from `outposr`, `outposc`, `outposd`. Huge weight for `outposr`, which predominates to the extent that it's impossible to rule out other, as-yet-unobserved low-frequency tokens.
     - No-DirectSong/`*` behavior:
-        - `outposr` = Random picks from "Hall of Heroes" and "The Rift." TODO: check for more.
-        - `outposc` = TODO 
+        - Strongly suspect the vanilla behavior and tokens are mismatched. Seems like it's just playing random picks from "Hall of Heroes" and "The Rift" regardless of which token is sent. (Can't tell for sure because these tokens aren't used anywhere else.)
+        - `outposr` = Random picks from "Hall of Heroes" and "The Rift."
+        - `outposc` = "Hall of Heroes" (observed only once)
+        - `outposd` = "The Rift" (observed only once)
+- Isle of the Nameless (PvE and PvP versions)
+    - Token stream: `riftgld`
+    - No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," "Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    - Same as Underworld and Ruins of the Tombs of the Primeval Kings.
 - Embark Beach
     - Token stream: Random picks from `enamsca`, `enamscb`, `enamsci`.
-    - No-DirectSong/`*` behavior: TODO
+    - No-DirectSong/`*` behavior:
+        - Always plays "Ashford Abbey"
+        - Vanilla behavior does not match tokens emitted. Needs L token fix.
 - Zaishen Menagerie Outpost
     - Token stream is always `outrura` over and over.
-    - No-DirectSong/`*` behavior is random picks from "Assassin's Theme" and "Ritualist's Theme." (Almost, but not quite the as Monestary)
+    - No-DirectSong/`*` behavior is random picks from "Assassin's Theme" and "Ritualist's Theme."
+    - Same as Shing Jea Monatery and Seitung Harbor.
 - Zaishen Menagerie Grounds
      - Token stream is random picks from `ruraada`, `ruraadb` and `ruraadc`.
-     - No-DirectSong/`*` behavior: TODO
+     - No-DirectSong/`*` behavior:
+        -  `ruraada` = "Shing Jea Monastery"
+        -  `ruraadb` = "Harvest Festival"
+        -  `ruraadc` = "Age of the Dragon"
 - Codex Arena Outpost
     - Token stream is random picks from `outlowa`, `outlowb`, `outlowc`
-    - No-DirectSong/`*` behavior: TODO
-- RA outpost
-    - Token Stream `outposr`. (Might be like GToB with other stuff mixed in rarely.)
     - No-DirectSong/`*` behavior:
-        - `outposr` = Random picks from "Hall of Heroes" and "The Rift." TODO: check for more.
-- HA outpost
-    - No music?!
-- Zaishen Challenge outpost
-    - No music?!
-- Zaishen Elite outpost
-    - Token Stream `outposr`. (Might be like GToB with other stuff mixed in rarely.)
-    -- No-DirectSong/`*` behavior:
-        - `outposr` = Random picks from "Hall of Heroes" and "The Rift." TODO: check for more.
+        - `outlowa` = "Fortress of Jahai"
+        - `outlowb` = "The Forgotten God"
+        - `outlowc` = "Kouran Caravan"
+    - The Nightfall music selection is probably a leftover from when this was Hero Arena. Doesn't really fit with Canthan appearance.
+- HA outpost and Zaishen Challenge outpost
+    - This outpost plays no music at all. Not even via an L token. Likely a GW bug. Cannot be fixed via DirectSong.ds. Cannot be fixed by removing the DirectSong dll.
+    - Strangely, another tester reported no music in these outposts and also no music in GTOB and Zaishen Elite too. The inconsistency bothers me.
+    - Forbidden path is part of Zaishen Challenge outpost, and also has no music.
+
+## PvP
+- Note: I am not going to attempt PvP research without help. It's going to require multiple people to coordinate so that someone can listen to the music in a particular arena unmolested.
+- Team Trials Quest
+    - Token stream = ???
+    - No-DirectSong/`*` behavior: [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+    
