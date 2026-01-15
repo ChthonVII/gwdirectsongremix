@@ -23,7 +23,7 @@ Fix the rather numerous shortcomings of the default GuildWars.ds.
 - Nightfall: Not started
 - EotN: Not started
 - Underworld & Fissure of Woe: **Done**
-- Battle Isles outposts: Research >50% complete.
+- Battle Isles outposts: **Done**
 - PvP: Not started. Won't be attempted without help.
 
 ## Usage:
