@@ -361,7 +361,7 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
         - `outlowc` = "Kouran Caravan"
     - The Nightfall music selection is probably a leftover from when this was Hero Arena. Doesn't really fit with Canthan appearance.
 - HA outpost and Zaishen Challenge outpost
-    - This outpost plays no music at all. Not even via an L token. Likely a GW bug. Cannot be fixed via DirectSong.ds. Cannot be fixed by removing the DirectSong dll.
+    - These outposta play no music at all. Not even via an L token. Likely a GW bug. Cannot be fixed via DirectSong.ds. Cannot be fixed by removing the DirectSong dll.
     - Strangely, another tester reported no music in these outposts and also no music in GTOB and Zaishen Elite too. The inconsistency bothers me.
     - Forbidden path is part of Zaishen Challenge outpost, and also has no music.
 
