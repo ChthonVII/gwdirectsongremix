@@ -16,10 +16,10 @@ Here is how control flow seems to work, based on the (sparse) documentation and 
     - There is some persistent memory about the position of each playlist. For instance, if you log in to Tsumei Village, wait for `outrura` to play twice, then map to Ran Musu Gardens and wait for `outrura` again, it will play the third entry in the list. Likewise, if you log in to Tsumei Village, wait for `outrura` to play twice, walk out into Panjiang Peninsula, listen to a few songs, then walk back into Tsumei Village and wait for `outrura` again, it will play the third entry in the list. It's not presently known whether the position of every playlist is always stored, or only the positions for a few recently used playlists.
 4. Once an entry is picked:
      - If the entry picked is `*`, then ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play.
-     - If the entry picked points to a file, ds_GuildWars.dll tells Gw.exe it has a match, Gw.exe defers, and ds_GuildWars.dll tries to decode the file.
-          - If the file won't play (corrupted file, DRM, can't decode wma, etc.), then it skips to the next entry in the playlist. (TODO: Double check that it's not just failing and GW.exe sends another token rather than the next track.) (TODO: What happens if none of the files can be played?)
-     - TODO: What happens with malformed entries?
-     - TODO: Are those `pathname/*` entries in Nightfall valid?
+     - If the entry picked points to a file, ds_GuildWars.dll tells Gw.exe it has a match, Gw.exe defers, and ds_GuildWars.dll tries to play the file.
+     - If the entry is malformed (i.e., not the name of a file), then ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play.
+     - If the file cannot be played (corrupted file, DRM, can't decode wma, etc.), then ds_GuildWars.dll defers back to Gw.exe and Gw.exe plays the song it was preparing to play.
+     - TODO: Are those `pathname/*` entries in Nightfall valid? (Probably not.)
 
 Volume is indicated after each file in square brackets. The units are negative millibels full scale. So "[0]" means 100% full scale volume. And "[1000]" means 10% full scale volume. **Bigger numbers are softer.** (Note, however, that human hearing is more or less logarithmic, so millibels feel linear.)
 
