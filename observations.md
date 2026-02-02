@@ -23,7 +23,7 @@ Here is how control flow seems to work, based on the (sparse) documentation and 
 
 Volume is indicated after each file in square brackets. The units are negative millibels full scale. So "[0]" means 100% full scale volume. And "[1000]" means 10% full scale volume. **Bigger numbers are softer.** (Note, however, that human hearing is more or less logarithmic, so millibels feel linear.)
 
-Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bombastic file was given a large number to make it soft enough to pass as background music. But sometimes a soft file was given a large number in a mistaken attempt to make it louder. Oops! Hence the need for volume testing every file. (GW's mixing is weird, so we can't just predict how loud something's going to sound by calculating LUFS or whatever. (I tried. It didn't work.))
+Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bombastic file was given a large number to make it soft enough to pass as background music. But sometimes a soft file was given a large number in a mistaken attempt to make it louder. Oops! Hence the need for volume testing every file. (GW's mixing is weird, so we can't just predict how loud something's going to sound by calculating LUFS or whatever. (I tried. It didn't work.)) Note: Mixing seems to have changed with Reforged update; old volume tests may be invalid now.
 
 
 ## Login Screen
@@ -132,7 +132,7 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
         - Upon starting the battle `dungbsi` plays one time.
         - After the cinematic where the elementals pop out, `dungbsi` plays again one time.
         - The rest of the time is random picks from `dungbsa`, `dungbsb`, `dungbsc`, and bypassing DirectSong to play "Door of Komalie" or [Untitled track missing from soundtrack CD](https://www.youtube.com/watch?v=U6R2xuOTCoE&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=3).
-        - Playing music outside DirectSong like this is unexpected.
+        - Playing music outside DirectSong like this is unexpected. TODO: Are these undocumented tokens?
     - No-DirectSong/`*` behavior is:
         - `dungbsi` = "Devona's Theme"
         - `dungbsa` = "Cynn's Theme"
@@ -312,9 +312,111 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
      - `seabadb` = "Jade Sea"
      - `seabadc` = "Luxon Theme"
     
+## Nightfall Battle Music
+- Seems to be 3 tracks per zone, generally varying the picks per zone (rather than per region). This makes testing absolutely miserable.
+- There are undocumented tokens used for battle music, along with untitled tracks that aren't on the soundtrack CD. This also makes testing miserable.
+- The criteria for triggering battle music are unknown. It's not simply initating aggro, attacking, getting hit, or aggroing X number of foes at once.
+    - In fact, it's pretty hard to trigger the battle music in Istan in normal mode with a level 20 character.
+    - My best *guess* is some kind of collective "threat level" estimatation for the aggroed foes needs to exceed some threshhold.
+    - There seems to be a cooldown period during which battle music won't play again if it just finished.
+- Tokens and No-DirectSong/`*` behavior:
+    - `battnfa` = "Gathering Storm"
+    - `battnfb` = "Sunspear Assault"
+    - `battnfc` =
+    - `battnfd` = I speculate this token exists. Not observed yet. 
+    - `battnfe` = [Untitled battle track A, not on sountrack CD](https://www.youtube.com/watch?v=VKrZ_URFh8U&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=22). (This token is not documented.)
+    - `battnff` = "The Corsair Armada"
+    - `battnfg` = "Invasion of Vabbi"
+    - `battnfh` = "Into the Breach"
+    - `battnfi` = "Desparate Flight"
+    - `battnfj` = [Untitled battle track B, not on soundtrack CD](https://www.youtube.com/watch?v=_UuD8J60A2s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=21). (This token is not documented.)
+    
 ## Istan
-- Kamadan
+- Sunspear Arena
+    - Token stream: Random picks from `outbada`, `outbadb`, and `outbadc`.
+    - Is this a mistake?
+- All other outposts
      - Token stream: Random picks from `outdela`, `outdelb`, and `outdelc`.
+     - The default GuildWars.ds entry for `outdelc` is puzzling. It plays the same song twice, once via `*`. Maybe two different variants of the same song? Or maybe a mistake?
+- Explorables/Missions
+    - Chahbek Village mission has special playlist: "Gathering Storm" and "Invasion of Vabbi"
+        - Can't use an L token here without also affecting the outpost.
+        - Does not have battle music.
+    - Consulate Docks mission has a complex special playlist. (It sees to evolve as the mission progresses.)
+        - Can't use an L token here without also affecting the outpost.
+        - Does not have battle music.
+    - All other explorables/missions
+        - Token stream: Random picks from `deladaa`, `deladab`, and `deladac`.
+- No-DirectSong/`*` behavior is:
+    - Outposts
+        - `outdela` = "Guardian Sunspears"
+        - `outdelb` = "Haunted Ruins"
+        - `outdelc` = "The Sulfurous Wastes"
+        - `outbada` = "Lost Dynasties"
+        - `outbadb` = "The Hidden City" (This is different than what plays in Desolation outposts for this token. ("Turai's Legacy))
+        - `outbadc` = "The Makers' Song" (Again, different from what plays in Desolation outposts for this token.)
+    - Explorables/Missions
+        - `deladaa` = "Guardian Sunspears"
+        - `deladab` = "Haunted Ruins"
+        - `deladac` = "The Sulfurous Wastes"
+    - It seems that at some point "The Sulfurous Wastes" and "Black Sails at Dawn" either switched purposes or switched titles. They play in opposite locations than one would expect based on titles.
+- Battle Music:
+    - Plains of Jarin - `battnff`, `battnfh`, `battnfj` (FHJ)
+    - Zehlon Reach - `battnff`, `battnfh`, `battnfj` (FHJ)
+    - Cliffs of Dohjok - `battnff`, `battnfg`, `battnfh` (FGH)
+    - Fahranur, the First City (explorable and mission) - `battnfa`, `battnff`, `battnfe` (AFE)
+    - Lahtenda Bog (explorable and mission) - `battnfa`, `battnfb`, `battnfe` (ABE)
+    - Issnur Isles - `battnfb`, `battnfg`, `battnfi` (BGI)
+    - Mehtani Keys - `battnfb`, `battnfi`, `battnfj` (BIJ)
+
+## Kourna
+- Outposts
+    - Token stream: Random picks from `outlowa`, `outlowb`, and `outlowc`.
+    - Includes Gate of Desolation. Arguably a mistake, but hard to fix because L token would also affect mission.
+    - Includes Wehhan Terraces. Arguably a mistake. On one hand, the whole point of the secret passage through Moddok Crevice/Bahdok Caverns is to get to Vabbi, so Wehhan Terraces should be part of  Vabbi. On the other hand, the NPCs are Kournan. 
+- Explorables/Missions
+    - Token stream: Random picks from `lowadaa`, `lowadab`, and `lowadac`.
+    - TODO: test all zones for exceptions
+    
+    Sunward Marches EHI
+    Marga Coast HIJ
+    Arkjok Ward EHJ
+    Dejarin Estate BGI
+    Gandara, the Moon Fortress explorable BFH
+    Barbarous Shore BFG
+    Jahai Bluffs FGH
+    The Floodplain of Mahnkelon GHI
+    Bahdok Caverns EFG
+    Turai's Procession ABH
+    Venta Cemetary mission EHI
+    Kodonur Crossroads mission BIG
+    
+## Messy Nightfall Notes in Progress
+    
+    procession a/b no third one
+    sunward i/?/?
+    
+    mirror of lyss
+        uses outpost rather than adventruing
+        A/F/G
+    
+    makkun
+        also outpost
+        G/I/?
+        
+    vatendi
+        also outpost
+        G/F/E
+        
+    mines
+        outpost
+        b/G/E
+    
+    doe nowhere use vabbi adventuring?
+    
+    gathering storm invasio nof vabbi, drum thing
+    
+    utitled, invsaison, maybe armada, 
 
 ## Fissure of Woe
 - Token stream is `volcada` and `volcadb`
