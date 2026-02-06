@@ -427,7 +427,15 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
 ## Underworld
 - Token stream is `riftgld` over and over.
 - No-DirectSong/`*` behavior is random picks from "Hall of Heroes," "The Rift," "Guilds at War," and [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6). (This presents a small problem, as we cannot get just the untitled song alone via `*`. We will need to extract it from gw.dat and find the correct volume to play it.)
-     
+
+## Bonus Mission Pack
+- The Battle of Jahai
+    - Token Stream: `endefau`
+    - Yikes! Changing `endefau` to anything but `*` would accidentally mess this up.
+    - (No battle tracks, no location cue)
+    - End cutscene plays [this track](https://www.youtube.com/watch?v=mMJHbgLAg60&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=42).
+- TODO: Do the others
+
 ## Battle Isles
 - Great Temple of Balthazar, Random Arena outpost, and Zaishen Elite outpost
     - Token stream: Random picks from `outposr`, `outposc`, `outposd`. Huge weight for `outposr`, which predominates to the extent that it's impossible to rule out other, as-yet-unobserved low-frequency tokens.
@@ -463,13 +471,71 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
         - `outlowc` = "Kouran Caravan"
     - The Nightfall music selection is probably a leftover from when this was Hero Arena. Doesn't really fit with Canthan appearance.
 - HA outpost and Zaishen Challenge outpost
-    - These outposta play no music at all. Not even via an L token. Likely a GW bug. Cannot be fixed via DirectSong.ds. Cannot be fixed by removing the DirectSong dll.
+    - These outposts play no music at all. Not even via an L token. Likely a GW bug. Cannot be fixed via DirectSong.ds. Cannot be fixed by removing the DirectSong dll.
     - Strangely, another tester reported no music in these outposts and also no music in GTOB and Zaishen Elite too. The inconsistency bothers me.
     - Forbidden path is part of Zaishen Challenge outpost, and also has no music.
+- Guild Halls (outposts)
+    - Isle of Mediation
+        - Token Stream: `outrura`, `outrurb` and `outrurc`.
+    - Isle of Wurms
+        - Token Steam: random picks from `outbada`, `outbadb`, and `outbadc`
+    - Uncharted Isle
+        - Token Steam: random picks from `outbada`, `outbadb`, and `outbadc`
+        - TODO: really? double check that
+    - Isle of Solitude
+        - Token Steam: random picks from `outbada`, `outbadb`, and `outbadc`
+        - TODO: really? double check that
+    - TODO: check others
+    - Unfortunately, the Canthan Ambassador takes you to PvP versions, so checking the outpost music is going to be a pain.
 
 ## PvP
 - Note: I am not going to attempt PvP research without help. It's going to require multiple people to coordinate so that someone can listen to the music in a particular arena unmolested.
+- Note: Thank you to Krschkr for doing PvP research!
 - Team Trials Quest
     - Token stream = ???
     - No-DirectSong/`*` behavior: [untitled song from the Catacombs, missing from the soundtrack CD](https://www.youtube.com/watch?v=86ZM36tFE_s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=6).
+- Random Arenas
+    - D'Alessio Arena
+        - Token Stream: random picks from `geneadc` and `coasada`
+    - Shiverpeaks Arena
+        - Token Stream: random picks from `snowada` and `crysada`
+    - Fort Koga
+        - Token Stream: random picks from `geneada` and `geneadb`
+    - Seabed Arena
+        - Token Stream: random picks from `seabada`, `seabadb` and `seabadc`
+    - Sunspear Arena
+        - Token Stream: random picks from `badadab` and `badadac` (probably also `badadaa`, but not observed yet due to small sample size)
+        - Battle Token Steam: random picks from `battnfa` and `battnfc` (probably one more, but not observed yet due to small sample size)
+    - Shing Jea Arena
+        - Token Stream: random picks from `ruraada` and `ruraadc` (probably also `ruraadb`, but not observed yet due to small sample size)
+    - The Crag
+        - Token Stream: random picks from `volcada` and `volcadb`
+    - Heroes' Crypt
+        - Token Stream: random picks from `scorada` and `scoradb`
+    - Brawler's Pit
+        - Token Stream: random picks from `urbaada` and `urbaadb` (probably also `urbaadc`, but not observed yet due to small sample size)
+        - (tokens stop once combat begins or once the match is over)
+    - Amnoon Arena
+        - Token Stream: random picks from `crysada` and `geneadd`
+    - Petrified Arena
+        - Token Stream: random picks from `petrada` and `petrada`
+    - Churranu Island Arena
+        - Token Stream: random picks from `lowadaa`, `lowadab` and `lowadac`
+        - Battle Token Steam: random picks from `battnfa`, `battnfb`, and `battnfc`
+    - Ascalon Arena
+        - Token Stream: random picks from `scorada` and `scoradb`
+- Heroes' Ascent
+    - Hall of Heroes/Courtyard/Golden Gates/Underworld
+        - Token Stream: `riftgld`
+    - Forgotten Shrines
+        - No music at all.
+- Guild vs Guild
+    - Isle of Wurms
+        - Token Stream: random picks from `badadaa`, `badadab` and `badadac`
+        - Battle Token Stream: random picks from `battnfa\b\c\e\f\h\i` (no `d`, no `g`) plus unknown tokens for [Untitled battle track C, not on soundtrack CD](https://www.youtube.com/watch?v=-UGydnSBLQ8&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=23) and [https://www.youtube.com/watch?v=-YlyfI80ltw&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=24)
+        - TODO: Figure out these missing tokens
+    - Uncharted Isle same as Isle of Wurms. TODO: Really? double check.
+    - Isle of Solitude same as Isle of Wurms. TODO: Really? double check.
+    
+        
     
