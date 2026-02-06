@@ -532,7 +532,7 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
 - Guild vs Guild
     - Isle of Wurms
         - Token Stream: random picks from `badadaa`, `badadab` and `badadac`
-        - Battle Token Stream: random picks from `battnfa\b\c\e\f\h\i` (no `d`, no `g`) plus unknown tokens for [Untitled battle track C, not on soundtrack CD](https://www.youtube.com/watch?v=-UGydnSBLQ8&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=23) and [https://www.youtube.com/watch?v=-YlyfI80ltw&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=24)
+        - Battle Token Stream: random picks from `battnfa\b\c\e\f\h\i` (no `d`, no `g`) plus unknown tokens for [Untitled battle track C, not on soundtrack CD](https://www.youtube.com/watch?v=-UGydnSBLQ8&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=23) and [Untitled battle track D, not on soundtrack CD](https://www.youtube.com/watch?v=-YlyfI80ltw&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=24)
         - TODO: Figure out these missing tokens
     - Uncharted Isle same as Isle of Wurms. TODO: Really? double check.
     - Isle of Solitude same as Isle of Wurms. TODO: Really? double check.
