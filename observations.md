@@ -518,7 +518,7 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
     - Amnoon Arena
         - Token Stream: random picks from `crysada` and `geneadd`
     - Petrified Arena
-        - Token Stream: random picks from `petrada` and `petrada`
+        - Token Stream: random picks from `petrada` and `petradb`
     - Churranu Island Arena
         - Token Stream: random picks from `lowadaa`, `lowadab` and `lowadac`
         - Battle Token Steam: random picks from `battnfa`, `battnfb`, and `battnfc`
