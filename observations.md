@@ -322,14 +322,17 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
 - Tokens and No-DirectSong/`*` behavior:
     - `battnfa` = "Gathering Storm"
     - `battnfb` = "Sunspear Assault"
-    - `battnfc` =
-    - `battnfd` = I speculate this token exists. Not observed yet. 
+    - `battnfc` = "Pride of the Centaurs"
+    - `battnfd` = I speculate this token exists. Not observed yet. (This token is not documented.)
     - `battnfe` = [Untitled battle track A, not on sountrack CD](https://www.youtube.com/watch?v=VKrZ_URFh8U&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=22). (This token is not documented.)
     - `battnff` = "The Corsair Armada"
     - `battnfg` = "Invasion of Vabbi"
     - `battnfh` = "Into the Breach"
     - `battnfi` = "Desparate Flight"
     - `battnfj` = [Untitled battle track B, not on soundtrack CD](https://www.youtube.com/watch?v=_UuD8J60A2s&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=21). (This token is not documented.)
+    - `battnfk` = I speculate this token exists. Not observed yet. (This token is not documented.)
+    - `battnfl` = [Untitled battle track C, not on soundtrack CD](https://www.youtube.com/watch?v=-YlyfI80ltw&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=24) (This token is not documented.)
+    - `battnfm` = [Untitled battle track D, not on soundtrack CD](https://www.youtube.com/watch?v=-UGydnSBLQ8&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=23) (This token is not documented.)
     
 ## Istan
 - Sunspear Arena
@@ -530,12 +533,9 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
     - Forgotten Shrines
         - No music at all.
 - Guild vs Guild
-    - Isle of Wurms
+    - Isle of Wurms/Uncharted Isle/Isle of Solitude
         - Token Stream: random picks from `badadaa`, `badadab` and `badadac`
-        - Battle Token Stream: random picks from `battnfa\b\c\e\f\h\i\j` (no `d`, no `g`) plus unknown tokens for [Untitled battle track C, not on soundtrack CD](https://www.youtube.com/watch?v=-UGydnSBLQ8&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=23) and [Untitled battle track D, not on soundtrack CD](https://www.youtube.com/watch?v=-YlyfI80ltw&list=PLwJG4Y29e6d9OWQjQ1jmULd33Gu7mWL6t&index=24)
-        - TODO: Figure out these missing tokens
-    - Uncharted Isle same as Isle of Wurms. TODO: Really? double check.
-    - Isle of Solitude same as Isle of Wurms. TODO: Really? double check.
+        - Battle Token Stream: random picks from `battnfa\b\c\e\f\h\i\j\l\m` (no `d`, no `g`, no `k`) 
     
         
     
