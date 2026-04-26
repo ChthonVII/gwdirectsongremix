@@ -478,8 +478,19 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
     - Strangely, another tester reported no music in these outposts and also no music in GTOB and Zaishen Elite too. The inconsistency bothers me.
     - Forbidden path is part of Zaishen Challenge outpost, and also has no music.
 - Guild Halls (outposts)
+    - Warrior's Isle/Druid's Isle
+        - Token Stream: `outposc`, `outposd` and `outposr`.
+    - Isle of the Dead
+        - Token Stream: `outposc`, `outposd`, `outpose` and `outposf`. (more weight for `outposc`, `outposd`)
+    - Frozen Isle
+        - Token Stream: `outposc`, `outposd` and `outposf`. (suspect maybe `outpose` should be here too)
+    - Jade Isle
+        - Token Stream: `outposs` (repeating token for 10 minutes, probably the only one)
+        - Is this a mistake? Special vanilla music?
     - Isle of Mediation
         - Token Stream: `outrura`, `outrurb` and `outrurc`.
+    - Imperial Isle
+        - Token Stream: `outurba`, `outurbb` and `outurbc`.
     - Isle of Wurms
         - Token Steam: random picks from `outbada`, `outbadb`, and `outbadc`
     - Uncharted Isle
@@ -507,26 +518,27 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
     - Seabed Arena
         - Token Stream: random picks from `seabada`, `seabadb` and `seabadc`
     - Sunspear Arena
-        - Token Stream: random picks from `badadab` and `badadac` (probably also `badadaa`, but not observed yet due to small sample size)
-        - Battle Token Steam: random picks from `battnfa` and `battnfc` (probably one more, but not observed yet due to small sample size)
+        - Token Stream: random picks from `badadaa`, `badadab` and `badadac`
+        - Battle Token Steam: random picks from `battnfg` and `battnfc` (+ probably a third token not observed due to track rarity and small sample size because of map rarity)
     - Shing Jea Arena
-        - Token Stream: random picks from `ruraada` and `ruraadc` (probably also `ruraadb`, but not observed yet due to small sample size)
+        - Token Stream: random picks from `ruraada`, `ruraadb`, and `ruraadc`
     - The Crag
         - Token Stream: random picks from `volcada` and `volcadb`
     - Heroes' Crypt
         - Token Stream: random picks from `scorada` and `scoradb`
     - Brawler's Pit
         - Token Stream: random picks from `urbaada` and `urbaadb` (probably also `urbaadc`, but not observed yet due to small sample size)
-        - (tokens stop once combat begins or once the match is over)
+        - (tokens stop about 10 seconds after the gates open and never resume)
     - Amnoon Arena
         - Token Stream: random picks from `crysada` and `geneadd`
     - Petrified Arena
         - Token Stream: random picks from `petrada` and `petradb`
     - Churranu Island Arena
         - Token Stream: random picks from `lowadaa`, `lowadab` and `lowadac`
-        - Battle Token Steam: random picks from `battnfa`, `battnfb`, and `battnfc`
+        - Battle Token Steam: random picks from `battnfa`, `battnfb`, and `battnfe`
     - Ascalon Arena
         - Token Stream: random picks from `scorada` and `scoradb`
+    - TODO: review video for non-DS behavior [1](https://youtu.be/_MTlcOGF8UM), [2](https://youtu.be/POR2JWlyujo), [3](https://youtu.be/GHBLVorWSMI)
 - Heroes' Ascent
     - Hall of Heroes/Courtyard/Golden Gates/Underworld
         - Token Stream: `riftgld`
