@@ -405,7 +405,38 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
     - Bahdok Caverns/Moddok Crevice mission - `battnfe`, `battnff`, `battnfg` (EFG)
     - Turai's Procession - `battnfa`, `battnfb`, `battnfh` (ABH)
     - Dajkah Inlet challenge mission - `battnfb`, `battnfe`, `battnfg` (BEG)
-    
+   
+## Vabbi
+- Outposts
+    - Token stream: Random picks from `outhiga`, `outhigb`, and `outhigc`.
+    - TODO check all
+    - Basalt Grotto counts as Vabbi.
+    - Wehhan Terraces counts as Kourna. Arguably a mistake. On one hand, the whole point of the secret passage through Moddok Crevice/Bahdok Caverns is to get to Vabbi, so Wehhan Terraces should be part of  Vabbi. On the other hand, the NPCs are Kournan.
+- Explorables/Missions
+    - TODO: special cases. Expect Nightfallen Garden?
+    - TODO: Tihark Orchard mission seems heavily biased towards C. Is it different than others?
+    - Jennur's Horde mission
+        - Token stream: Random picks from `nitadaa`, `nitadab`, `nitadac`
+    - All other explorables/missions
+        - Token stream: Random picks from `outhiga`, `outhigb`, and `outhigc`.
+        - **BUG!** These explorables/missions are emitting outpost tokens instead of adventuring tokens.
+- No-DirectSong/`*` behavior is:
+    - TODO
+- Battle Music:
+    - Yatendi Canyons ABE
+    - Vehtendi Valley EFG
+    - Resplendent Makuun EGI
+    - The Mirror of Lyss FGH
+    - Grand Court of Sebelkeh mission FHJ
+    - The Hidden City of Ahdashim/Dasha Vestibule mission BGH
+    - Wilderness of Bahdza/Dzagonur Bastion mission EFH
+    - Holdings of Chokhin EIJ
+    - Vehjin Mines BEG
+    - Forum Highlands BFH
+    - Garden of Seborhin ABE
+    - Jennur's Horde mission FHI
+    - Bokka Amphitheatre - unknown (TODO: needs a quest to spawn foes)
+    - Tihark Orchard - none (battle music doesn't trigger)
     
 ## Messy Nightfall Notes in Progress
     
