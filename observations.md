@@ -376,23 +376,36 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
 - Outposts
     - Token stream: Random picks from `outlowa`, `outlowb`, and `outlowc`.
     - Includes Gate of Desolation. Arguably a mistake, but hard to fix because L token would also affect mission.
-    - Includes Wehhan Terraces. Arguably a mistake. On one hand, the whole point of the secret passage through Moddok Crevice/Bahdok Caverns is to get to Vabbi, so Wehhan Terraces should be part of  Vabbi. On the other hand, the NPCs are Kournan. 
+    - Includes Wehhan Terraces. Arguably a mistake. On one hand, the whole point of the secret passage through Moddok Crevice/Bahdok Caverns is to get to Vabbi, so Wehhan Terraces should be part of  Vabbi. On the other hand, the NPCs are Kournan.
 - Explorables/Missions
-    - Token stream: Random picks from `lowadaa`, `lowadab`, and `lowadac`.
-    - TODO: test all zones for exceptions
+    - Nundu Bay mission
+        - Token stream: Random picks from `nitadaa`, `nitadab`, `nitadac`
+    - All other explorables/missions
+        - Token stream: Random picks from `lowadaa`, `lowadab`, and `lowadac`.
+- No-DirectSong/`*` behavior is:
+    - `outlowa` = "Fortress of Jahai"
+    - `outlowb` = "The Forgotten God"
+    - `outlowc` = "Kouran Caravan"
+    - `lowadaa` = "Fortress of Jahai"
+    - `lowadab` = "The Forgotten God"
+    - `lowadac` = "Kouran Caravan"
+    - `nitadaa` = "Descent Into Madness"
+    - `nitadab` = "Tortured Souls"
+    - `nitadac` = "Web of Terror"
+- Battle Music:
+    - Sunward Marches/Venta Cemetary mission - `battnfe`, `battnfh`, `battnfi` (EHI)
+    - Marga Coast - `battnfh`, `battnfi`, `battnfj` (HIJ) (not shared with Nundu Bay mission)
+    - Nundu Bay mission - `battnff`, `battnfg`, `battnfh` (FGH) (not shared with Marge Coast)
+    - Arkjok Ward - `battnfe`, `battnfh`, `battnfj` (EHJ)
+    - Dejarin Estate/Kodonur Crossroads mission - `battnfb`, `battnfg`, `battnfi` (BGI)
+    - Gandara, the Moon Fortress explorable/Pogahn Passage mission - `battnfb`, `battnff`, `battnfh` (BFH)
+    - Barbarous Shore - `battnfb`, `battnff`, `battnfg` (BFG)
+    - Jahai Bluffs - `battnff`, `battnfg`, `battnfh` (FGH)
+    - The Floodplain of Mahnkelon/Rilohn Refuge mission - `battnfg`, `battnfh`, `battnfi` (GHI)
+    - Bahdok Caverns/Moddok Crevice mission - `battnfe`, `battnff`, `battnfg` (EFG)
+    - Turai's Procession - `battnfa`, `battnfb`, `battnfh` (ABH)
+    - Dajkah Inlet challenge mission - `battnfb`, `battnfe`, `battnfg` (BEG)
     
-    Sunward Marches EHI
-    Marga Coast HIJ
-    Arkjok Ward EHJ
-    Dejarin Estate BGI
-    Gandara, the Moon Fortress explorable BFH
-    Barbarous Shore BFG
-    Jahai Bluffs FGH
-    The Floodplain of Mahnkelon GHI
-    Bahdok Caverns EFG
-    Turai's Procession ABH
-    Venta Cemetary mission EHI
-    Kodonur Crossroads mission BIG
     
 ## Messy Nightfall Notes in Progress
     
