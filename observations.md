@@ -409,7 +409,6 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
 ## Vabbi
 - Outposts
     - Token stream: Random picks from `outhiga`, `outhigb`, and `outhigc`.
-    - TODO check all
     - Basalt Grotto counts as Vabbi.
     - Wehhan Terraces counts as Kourna. Arguably a mistake. On one hand, the whole point of the secret passage through Moddok Crevice/Bahdok Caverns is to get to Vabbi, so Wehhan Terraces should be part of  Vabbi. On the other hand, the NPCs are Kournan.
 - Explorables/Missions
@@ -421,6 +420,13 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
         - Token stream: Random picks from `outhiga`, `outhigb`, and `outhigc`.
         - **BUG!** These explorables/missions are emitting outpost tokens instead of adventuring tokens.
 - No-DirectSong/`*` behavior is:
+    - `outhiga` = "Festival of Lyss"
+    - `outhigb` = "Garden of Seborhin"
+    - `outhigc` = "The Makers' Song" in outposts and Tihark Orchard mission, but "Resplendent Makuun" in explorables and other missions.
+        - This poses a problem. We cannot play the correct track in the correct place without compromise:
+            - Play both tracks everywhere; or
+            - L token ouposts without missions and leave other outposts wrong; or
+            - Do what default GuildWars.ds does - "Resplendent Makuun",* - and play every other track at low quality (and "The Makers' Song" always at low quality).
     - TODO
 - Battle Music:
     - Yatendi Canyons ABE
@@ -436,7 +442,7 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
     - Garden of Seborhin ABE
     - Jennur's Horde mission FHI
     - Bokka Amphitheatre - unknown (TODO: needs a quest to spawn foes)
-    - Tihark Orchard - none (battle music doesn't trigger)
+    - Tihark Orchard mission - none (battle music doesn't trigger)
     
 ## Messy Nightfall Notes in Progress
     
