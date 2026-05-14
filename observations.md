@@ -427,7 +427,9 @@ Sometimes a person working on GuildWars.ds messed this up. Sometimes a loud, bom
             - Play both tracks everywhere; or
             - L token ouposts without missions and leave other outposts wrong; or
             - Do what default GuildWars.ds does - "Resplendent Makuun",* - and play every other track at low quality (and "The Makers' Song" always at low quality).
-    - TODO
+    - `nitadaa` = "Descent Into Madness"
+    - `nitadab` = "Tortured Souls"
+    - `nitadac` = "Web of Terror"
 - Battle Music:
     - Yatendi Canyons ABE
     - Vehtendi Valley EFG
