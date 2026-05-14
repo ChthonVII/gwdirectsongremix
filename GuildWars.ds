@@ -472,9 +472,11 @@ canadab:Guild Wars Factions Original Soundtrack/06_Kaineng_City.mp3[600],Guild W
 # Guild Wars Nightfall Original Soundtrack and Guild Wars Nightfall Collector's Edition music
 ## ---
 #
+# Istan outposts. Vanilla music: outdela="Guardian Sunspears", outdelb="Haunted Ruins", outdelc="The Sulfurous Wastes"
 outdela:Guild Wars Nightfall Original Soundtrack/02_Guardian_Sunspears.mp3[500],Guild Wars Nightfall Collector's Edition/02_Champion's_Dawn.wma[500]
 outdelb:Guild Wars Nightfall Original Soundtrack/11_Haunted_Ruins.mp3[500]
 outdelc:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500],*
+# Istan explorables/missions. Vanilla music: deladaa="Guardian Sunspears", deladab="Haunted Ruins", deladac="The Sulfurous Wastes"
 deladaa:Guild Wars Nightfall Original Soundtrack/02_Guardian_Sunspears.mp3[500],Guild Wars Nightfall Collector's Edition/02_Champion's_Dawn.wma[500]
 deladab:Guild Wars Nightfall Original Soundtrack/11_Haunted_Ruins.mp3[500]
 deladac:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500]
@@ -482,12 +484,17 @@ deladac:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500]
 outlowa:Guild Wars Nightfall Original Soundtrack/09_Fortress_of_Jahai.mp3[500],Guild Wars Nightfall Collector's Edition/04_Pogahn_Passage.wma[500]
 outlowb:Guild Wars Nightfall Original Soundtrack/20_The_Forgotten_God.mp3[500],Guild Wars Nightfall Collector's Edition/05_Arkjok_Wards.wma[500]
 outlowc:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500],*
+# Kourna explorables/missions. Vanilla music: lowadaa="Fortress of Jahai", lowadab="The Forgotten God", lowadac="Kournan Caravan"
 lowadaa:Guild Wars Nightfall Original Soundtrack/09_Fortress_of_Jahai.mp3[500],Guild Wars Nightfall Collector's Edition/04_Pogahn_Passage.wma[500]
 lowadab:Guild Wars Nightfall Original Soundtrack/20_The_Forgotten_God.mp3[500],Guild Wars Nightfall Collector's Edition/05_Arkjok_Wards.wma[500]
 lowadac:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500]
+# Vabbi everything. Due to a bug these tokens are emitted for both outposts and explorables/missions.
+# Vanilla music: outhiga="Festival of Lyss", outhigb="Garden of Seborhin", outhigc="The Makers' Song" in outposts and Tihark Orchard mission, but "Resplendent Makuun" in explorables and other missions.
+# This is a problem.
 outhiga:Guild Wars Nightfall Original Soundtrack/06_Festival_of_Lyss.mp3[500],Guild Wars Nightfall Collector's Edition/03_Wilderness_of_Bahdza.wma[500]
 outhigb:Guild Wars Nightfall Original Soundtrack/18_Garden_of_Seborhin.mp3[500]
 outhigc:Guild Wars Nightfall Original Soundtrack/28_Resplendent_Makuun.mp3[500],*
+# Not used. These are supposed to be Vabbi adventuring tracks, but aren't used at all due to a bug.
 higadaa:Guild Wars Nightfall Original Soundtrack/06_Festival_of_Lyss.mp3[500],Guild Wars Nightfall Collector's Edition/03_Wilderness_of_Bahdza.wma[500]
 higadab:Guild Wars Nightfall Original Soundtrack/18_Garden_of_Seborhin.mp3[500]
 higadac:Guild Wars Nightfall Original Soundtrack/28_Resplendent_Makuun.mp3[500]
