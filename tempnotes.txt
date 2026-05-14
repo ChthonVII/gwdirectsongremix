@@ -211,6 +211,8 @@ L tokens for
 	Tihark w/ extra copies of C as Maker's SOng
 	Dasha/HiddenCity w/ Hidden City
 
+	ABCx, ACBx, BCAx, BACx, CABx, CBAx
+
 Add Harpy's Wings
 Maybe move bahzda to a different trac list
 
