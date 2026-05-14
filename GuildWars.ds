@@ -487,11 +487,11 @@ deladac:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500]
 # Kourna outposts + Codex Arena outpost. Vanilla music: outlowa="Fortress of Jahai", outlowb="The Forgotten God", outlowc="Kournan Caravan"
 outlowa:Guild Wars Nightfall Original Soundtrack/09_Fortress_of_Jahai.mp3[500],Guild Wars Nightfall Collector's Edition/04_Pogahn_Passage.wma[500]
 outlowb:Guild Wars Nightfall Original Soundtrack/20_The_Forgotten_God.mp3[500],Guild Wars Nightfall Collector's Edition/05_Arkjok_Wards.wma[500]
-outlowc:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500],*
+outlowc:Guild Wars Nightfall Original Soundtrack/30_Kournan_Caravan.mp3[500],Guild Wars Nightfall Original Soundtrack/07_Desert_Dwellers.mp3[500]
 # Kourna explorables/missions. Vanilla music: lowadaa="Fortress of Jahai", lowadab="The Forgotten God", lowadac="Kournan Caravan"
 lowadaa:Guild Wars Nightfall Original Soundtrack/09_Fortress_of_Jahai.mp3[500],Guild Wars Nightfall Collector's Edition/04_Pogahn_Passage.wma[500]
 lowadab:Guild Wars Nightfall Original Soundtrack/20_The_Forgotten_God.mp3[500],Guild Wars Nightfall Collector's Edition/05_Arkjok_Wards.wma[500]
-lowadac:Guild Wars Nightfall Original Soundtrack/24_Sulfurous_Wastes.mp3[500]
+lowadac:Guild Wars Nightfall Original Soundtrack/30_Kournan_Caravan.mp3[500],Guild Wars Nightfall Original Soundtrack/07_Desert_Dwellers.mp3[500]
 # Vabbi everything. Due to a bug these tokens are emitted for both outposts and explorables/missions.
 # Vanilla music: outhiga="Festival of Lyss", outhigb="Garden of Seborhin", outhigc="The Makers' Song" in outposts and Tihark Orchard mission, but "Resplendent Makuun" in explorables and other missions.
 # This is a problem.
