@@ -162,4 +162,56 @@ special falls outpost
 
 --------
 
+"Halls of Heroes", "The Rift", "Guilds at War", and untitled song (Catacombs).
+Rfit, halls, catacombs, guilds, converge, tombs
+
+--------
+
 epilogue: theme, heart, sea, autmun
+
+------
+
+- `outcryc` = "Ascension Song"
+- `outcryd` = "Crystal Oasis"
+- default ele, mhenlo
+
+c=ascen, ele
+d = crystal, mhenlo
+
+
+special tombs= crystal, tombs, catacomb, ascension,
+special dragon= crystal, dragon, ctacomb, ascension
+
+---------
+
+- `volcada` = "Abbadon's Mouth" \[sic\] - drums and woodwind
+- `volcadb` = "The Door of Komalie" - low and slow strings, high and creepy later
+- `outvolc` = "Abbadon's Mouth" \[sic\]
+- `outvold` = "The Door of Komalie"
+
+door, mouth, dsecnt, eve, guilds, rebirth, cynn, althea, rift,
+dragon? catacombs? hall?
+
+outpost
+c:abaddon,cynn,catacombs
+d:door,althea,rift
+
+adventure
+a:abaddon,cynn,guilds,descent
+b:door,althea,rebirth,rift,eve
+
+
+L tokens for
+	Basalt Grotto
+	Mihanu Township
+	Kodash
+	Honur Hill
+	Yahnur Market
+	Chantry + 5 gods
+	Tihark w/ extra copies of C as Maker's SOng
+	Dasha/HiddenCity w/ Hidden City
+
+Add Harpy's Wings
+Maybe move bahzda to a different trac list
+
+use both versions of gathering storm
